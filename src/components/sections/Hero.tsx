@@ -169,10 +169,10 @@ export default function Hero({ hero }: HeroProps) {
       />
 
       {/* 5. HERO CONTENT OVERLAY */}
-      <div className="relative z-10 w-full h-full min-h-screen min-h-[100dvh] flex flex-col items-center justify-between py-12 md:py-16 lg:py-20 px-4 pointer-events-none [@media(max-height:850px)]:py-8 [@media(max-height:700px)]:py-6">
+      <div className="relative z-10 w-full h-full min-h-screen min-h-[100dvh] flex flex-col items-center justify-between pt-32 pb-10 md:pt-36 md:pb-12 lg:pt-40 lg:pb-16 px-4 pointer-events-none [@media(max-height:850px)]:pt-28 [@media(max-height:850px)]:pb-8 [@media(max-height:700px)]:pt-28 [@media(max-height:700px)]:pb-6">
         
         {/* Top Subtitle Pill */}
-        <div className="mt-8 md:mt-12 lg:mt-14 [@media(max-height:850px)]:mt-6 [@media(max-height:700px)]:mt-2 text-center pointer-events-auto bg-background/50 backdrop-blur-sm px-6 py-2 rounded-full border border-border/50">
+        <div className="text-center pointer-events-auto bg-background/50 backdrop-blur-sm px-6 py-2 rounded-full border border-border/50">
           <span
             className="text-xs md:text-sm font-bold tracking-[0.2em] text-secondary uppercase"
             style={typography("hero.title")}
