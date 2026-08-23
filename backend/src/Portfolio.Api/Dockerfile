@@ -1,15 +1,19 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
-# Copy everything from the current directory (Portfolio.Api)
-COPY . .
-WORKDIR /app
+# Copy the entire backend folder structure
+COPY backend/ ./backend/
 
-# Restore and publish
-RUN dotnet restore "Portfolio.Api.csproj"
-RUN dotnet publish "Portfolio.Api.csproj" -c Release -o /app/publish
+# Set working directory to Portfolio.Api
+WORKDIR /app/backend/src/Portfolio.Api
 
-# Runtime
+# Restore dependencies
+RUN dotnet restore
+
+# Publish the application
+RUN dotnet publish -c Release -o /app/publish
+
+# Runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
