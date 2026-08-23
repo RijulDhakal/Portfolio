@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #0A0A0A;
+  --color-foreground: #F5F5F0;
+  --color-secondary: #8C8C87;
+  --color-electric: #C8FF00;
+  --color-surface: #141414;
+  --color-border: #292929;
+  
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-space-grotesk);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0A0A0A;
+  --foreground: #F5F5F0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html, body {
+  background: #0A0A0A;
+  background-color: #0A0A0A;
+  color: #F5F5F0;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+html {
+  overscroll-x: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
 }
