@@ -1,0 +1,466 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - complementary [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "Rijul." [ref=e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=e17]: CMS
+        - navigation [ref=e18]:
+          - link "01 Dashboard" [ref=e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=e34]: "08"
+            - text: Education
+          - link "09 Media" [ref=e35] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=e36]: "09"
+            - text: Media
+          - link "10 Messages" [ref=e37] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=e38]: "10"
+            - text: Messages
+          - link "11 Settings" [ref=e39] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=e40]: "11"
+            - text: Settings
+          - link "12 Social Links" [ref=e41] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=e42]: "12"
+            - text: Social Links
+          - link "13 Typography" [ref=e43] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=e44]: "13"
+            - text: Typography
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Signed in
+            - generic [ref=e48]: admin@rijuldhakal.com
+          - generic [ref=e49]:
+            - link "View Site" [ref=e50] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=e51]
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Skills" [level=1] [ref=e57]
+            - paragraph [ref=e58]: Orbit items shown on the public Skills section. Position X/Y place each skill in the orbiting cluster.
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - button "Aa" [expanded] [active] [ref=e62]
+              - dialog "Skills" [ref=e335]:
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - paragraph [ref=e338]: Skills
+                    - paragraph [ref=e339]: Override typography for the Skills section.
+                  - button "Close" [ref=e340]: ✕
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - generic [ref=e343]:
+                      - generic [ref=e344]:
+                        - generic [ref=e345]: Section label
+                        - generic [ref=e346]: body
+                      - button "Reset" [ref=e347]
+                    - generic [ref=e348]:
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Font
+                        - combobox [ref=e352]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=e353]:
+                        - generic [ref=e354]: Weight
+                        - combobox [ref=e356]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=e357]:
+                        - generic [ref=e358]: Uppercase
+                        - generic [ref=e360]:
+                          - button "Default" [ref=e361]
+                          - button "Uppercase" [ref=e362]
+                          - button "None" [ref=e363]
+                      - generic [ref=e364]:
+                        - generic [ref=e365]: Size
+                        - textbox "Inherit" [ref=e367]
+                        - paragraph [ref=e368]: e.g. 2rem, clamp(...)
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: Spacing
+                        - textbox "Inherit" [ref=e372]
+                        - paragraph [ref=e373]: e.g. 0.05em
+                      - generic [ref=e374]:
+                        - generic [ref=e375]: Line height
+                        - textbox "Inherit" [ref=e377]
+                        - paragraph [ref=e378]: e.g. 1.15
+                  - generic [ref=e379]:
+                    - generic [ref=e380]:
+                      - generic [ref=e381]:
+                        - generic [ref=e382]: Title
+                        - generic [ref=e383]: heading
+                      - button "Reset" [ref=e384]
+                    - generic [ref=e385]:
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: Font
+                        - combobox [ref=e389]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: Weight
+                        - combobox [ref=e393]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=e394]:
+                        - generic [ref=e395]: Align
+                        - combobox [ref=e397]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: Size
+                        - textbox "Inherit" [ref=e401]
+                        - paragraph [ref=e402]: e.g. 2rem, clamp(...)
+                      - generic [ref=e403]:
+                        - generic [ref=e404]: Spacing
+                        - textbox "Inherit" [ref=e406]
+                        - paragraph [ref=e407]: e.g. 0.05em
+                      - generic [ref=e408]:
+                        - generic [ref=e409]: Line height
+                        - textbox "Inherit" [ref=e411]
+                        - paragraph [ref=e412]: e.g. 1.15
+                    - generic [ref=e413]:
+                      - generic [ref=e414]: Uppercase
+                      - generic [ref=e415]:
+                        - button "Default" [ref=e416]
+                        - button "Uppercase" [ref=e417]
+                        - button "None" [ref=e418]
+                  - generic [ref=e419]:
+                    - generic [ref=e420]:
+                      - generic [ref=e421]:
+                        - generic [ref=e422]: Skill chip labels
+                        - generic [ref=e423]: body
+                      - button "Reset" [ref=e424]
+                    - generic [ref=e425]:
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Font
+                        - combobox [ref=e429]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=e430]:
+                        - generic [ref=e431]: Weight
+                        - combobox [ref=e433]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: Uppercase
+                        - generic [ref=e437]:
+                          - button "Default" [ref=e438]
+                          - button "Uppercase" [ref=e439]
+                          - button "None" [ref=e440]
+                      - generic [ref=e441]:
+                        - generic [ref=e442]: Size
+                        - textbox "Inherit" [ref=e444]
+                        - paragraph [ref=e445]: e.g. 2rem, clamp(...)
+                      - generic [ref=e446]:
+                        - generic [ref=e447]: Spacing
+                        - textbox "Inherit" [ref=e449]
+                        - paragraph [ref=e450]: e.g. 0.05em
+                      - generic [ref=e451]:
+                        - generic [ref=e452]: Line height
+                        - textbox "Inherit" [ref=e454]
+                        - paragraph [ref=e455]: e.g. 1.15
+                - generic [ref=e456]:
+                  - button "Reset section" [ref=e457]
+                  - button "Save typography" [ref=e458]
+            - button "New skill" [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - button "Figma" [ref=e108]
+                - paragraph [ref=e109]: UI / UX - 20.00% / 50.00%
+              - generic [ref=e110]:
+                - button [pressed] [ref=e111]
+                - generic [ref=e114]:
+                  - button "Move up" [disabled] [ref=e115]: ^
+                  - button "Move down" [ref=e116]: v
+                - button "Delete" [ref=e117]
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - button "Wireframing" [ref=e120]
+                - paragraph [ref=e121]: UI / UX - 30.50% / 27.00%
+              - generic [ref=e122]:
+                - button [pressed] [ref=e123]
+                - generic [ref=e126]:
+                  - button "Move up" [ref=e127]: ^
+                  - button "Move down" [ref=e128]: v
+                - button "Delete" [ref=e129]
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - button "Entrepreneurship" [ref=e132]
+                - paragraph [ref=e133]: BUSINESS - 69.50% / 27.00%
+              - generic [ref=e134]:
+                - button [pressed] [ref=e135]
+                - generic [ref=e138]:
+                  - button "Move up" [ref=e139]: ^
+                  - button "Move down" [ref=e140]: v
+                - button "Delete" [ref=e141]
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - button "React" [ref=e144]
+                - paragraph [ref=e145]: DEVELOPMENT - 80.00% / 50.00%
+              - generic [ref=e146]:
+                - button [pressed] [ref=e147]
+                - generic [ref=e150]:
+                  - button "Move up" [ref=e151]: ^
+                  - button "Move down" [ref=e152]: v
+                - button "Delete" [ref=e153]
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - button "Next.js" [ref=e156]
+                - paragraph [ref=e157]: DEVELOPMENT - 67.00% / 73.00%
+              - generic [ref=e158]:
+                - button [pressed] [ref=e159]
+                - generic [ref=e162]:
+                  - button "Move up" [ref=e163]: ^
+                  - button "Move down" [ref=e164]: v
+                - button "Delete" [ref=e165]
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - button "UX Research" [ref=e168]
+                - paragraph [ref=e169]: UI / UX - 50.00% / 12.00%
+              - generic [ref=e170]:
+                - button [pressed] [ref=e171]
+                - generic [ref=e174]:
+                  - button "Move up" [ref=e175]: ^
+                  - button "Move down" [ref=e176]: v
+                - button "Delete" [ref=e177]
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - button "Journey Maps" [ref=e180]
+                - paragraph [ref=e181]: UI / UX - 33.00% / 14.50%
+              - generic [ref=e182]:
+                - button [pressed] [ref=e183]
+                - generic [ref=e186]:
+                  - button "Move up" [ref=e187]: ^
+                  - button "Move down" [ref=e188]: v
+                - button "Delete" [ref=e189]
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - button "UI/UX Training" [ref=e192]
+                - paragraph [ref=e193]: BUSINESS - 67.00% / 14.50%
+              - generic [ref=e194]:
+                - button [pressed] [ref=e195]
+                - generic [ref=e198]:
+                  - button "Move up" [ref=e199]: ^
+                  - button "Move down" [ref=e200]: v
+                - button "Delete" [ref=e201]
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - button "Prototyping" [ref=e204]
+                - paragraph [ref=e205]: UI / UX - 13.00% / 33.00%
+              - generic [ref=e206]:
+                - button [pressed] [ref=e207]
+                - generic [ref=e210]:
+                  - button "Move up" [ref=e211]: ^
+                  - button "Move down" [ref=e212]: v
+                - button "Delete" [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - button "Visual Design" [ref=e216]
+                - paragraph [ref=e217]: UI / UX - 12.00% / 67.00%
+              - generic [ref=e218]:
+                - button [pressed] [ref=e219]
+                - generic [ref=e222]:
+                  - button "Move up" [ref=e223]: ^
+                  - button "Move down" [ref=e224]: v
+                - button "Delete" [ref=e225]
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - button "Food Distribution" [ref=e228]
+                - paragraph [ref=e229]: BUSINESS - 87.00% / 33.00%
+              - generic [ref=e230]:
+                - button [pressed] [ref=e231]
+                - generic [ref=e234]:
+                  - button "Move up" [ref=e235]: ^
+                  - button "Move down" [ref=e236]: v
+                - button "Delete" [ref=e237]
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - button "TypeScript" [ref=e240]
+                - paragraph [ref=e241]: DEVELOPMENT - 50.00% / 85.00%
+              - generic [ref=e242]:
+                - button [pressed] [ref=e243]
+                - generic [ref=e246]:
+                  - button "Move up" [ref=e247]: ^
+                  - button "Move down" [ref=e248]: v
+                - button "Delete" [ref=e249]
+            - generic [ref=e250]:
+              - generic [ref=e251]:
+                - button "Saptarishi Group" [ref=e252]
+                - paragraph [ref=e253]: BUSINESS - 83.00% / 16.00%
+              - generic [ref=e254]:
+                - button [pressed] [ref=e255]
+                - generic [ref=e258]:
+                  - button "Move up" [ref=e259]: ^
+                  - button "Move down" [ref=e260]: v
+                - button "Delete" [ref=e261]
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - button "PostgreSQL" [ref=e264]
+                - paragraph [ref=e265]: DEVELOPMENT - 91.00% / 50.00%
+              - generic [ref=e266]:
+                - button [pressed] [ref=e267]
+                - generic [ref=e270]:
+                  - button "Move up" [ref=e271]: ^
+                  - button "Move down" [ref=e272]: v
+                - button "Delete" [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - button "JavaScript" [ref=e276]
+                - paragraph [ref=e277]: DEVELOPMENT - 85.00% / 71.00%
+              - generic [ref=e278]:
+                - button [pressed] [ref=e279]
+                - generic [ref=e282]:
+                  - button "Move up" [ref=e283]: ^
+                  - button "Move down" [ref=e284]: v
+                - button "Delete" [ref=e285]
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - button "FastAPI" [ref=e288]
+                - paragraph [ref=e289]: DEVELOPMENT - 70.00% / 91.00%
+              - generic [ref=e290]:
+                - button [pressed] [ref=e291]
+                - generic [ref=e294]:
+                  - button "Move up" [ref=e295]: ^
+                  - button "Move down" [ref=e296]: v
+                - button "Delete" [ref=e297]
+            - generic [ref=e298]:
+              - generic [ref=e299]:
+                - button "ASP.NET Core" [ref=e300]
+                - paragraph [ref=e301]: DEVELOPMENT - 50.00% / 96.00%
+              - generic [ref=e302]:
+                - button [pressed] [ref=e303]
+                - generic [ref=e306]:
+                  - button "Move up" [ref=e307]: ^
+                  - button "Move down" [ref=e308]: v
+                - button "Delete" [ref=e309]
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - button "Tailwind CSS" [ref=e312]
+                - paragraph [ref=e313]: DEVELOPMENT - 30.00% / 91.00%
+              - generic [ref=e314]:
+                - button [pressed] [ref=e315]
+                - generic [ref=e318]:
+                  - button "Move up" [ref=e319]: ^
+                  - button "Move down" [ref=e320]: v
+                - button "Delete" [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - button "Node.js" [ref=e324]
+                - paragraph [ref=e325]: DEVELOPMENT - 15.00% / 83.00%
+              - generic [ref=e326]:
+                - button [pressed] [ref=e327]
+                - generic [ref=e330]:
+                  - button "Move up" [ref=e331]: ^
+                  - button "Move down" [disabled] [ref=e332]: v
+                - button "Delete" [ref=e333]
+          - generic [ref=e69]:
+            - heading "New skill" [level=2] [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: Name
+                - textbox "React" [ref=e76]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Category
+                - combobox [ref=e81]:
+                  - option "DEVELOPMENT" [selected]
+                  - option "UI / UX"
+                  - option "BUSINESS"
+              - generic [ref=e83]:
+                - generic [ref=e84]: Description
+                - textbox [ref=e86]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Position X (%)
+                - textbox "50%" [ref=e91]
+              - generic [ref=e93]:
+                - generic [ref=e94]: Position Y (%)
+                - textbox "50%" [ref=e96]
+              - generic [ref=e98]:
+                - generic [ref=e99]: Active
+                - button [pressed] [ref=e101]
+            - button "Create" [ref=e105]

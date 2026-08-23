@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - generic [ref=e10]:
+      - text: Rendering
+      - generic [ref=e11]:
+        - generic [ref=e12]: .
+        - generic [ref=e13]: .
+        - generic [ref=e14]: .
+  - alert [ref=e15]: Admin — Rijul Dhakal
+  - generic [ref=e16]:
+    - complementary [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - link "Rijul." [ref=e20] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=e21]: CMS
+        - navigation [ref=e22]:
+          - link "01 Dashboard" [ref=e23] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e24]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=e25] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=e26]: "02"
+            - text: Hero
+          - link "03 About" [ref=e27] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=e28]: "03"
+            - text: About
+          - link "04 Skills" [ref=e29] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=e30]: "04"
+            - text: Skills
+          - link "05 Services" [ref=e31] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=e32]: "05"
+            - text: Services
+          - link "06 Projects" [ref=e33] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=e34]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=e35] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=e36]: "07"
+            - text: Experience
+          - link "08 Education" [ref=e37] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=e38]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=e39] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=e40]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=e41] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=e42]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=e43] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=e44]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=e45] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=e46]: "12"
+            - text: Contact
+          - link "13 Media" [ref=e47] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=e48]: "13"
+            - text: Media
+          - link "14 Messages" [ref=e49] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=e50]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=e51] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=e52]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=e53] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=e54]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=e55] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=e56]: "17"
+            - text: Typography
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: Signed in
+            - generic [ref=e60]: admin@rijuldhakal.com
+          - generic [ref=e61]:
+            - link "View Site" [ref=e62] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=e63]
+    - main [ref=e64]:
+      - generic [ref=e65]: Loading dashboard

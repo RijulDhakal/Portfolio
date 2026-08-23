@@ -1,0 +1,106 @@
+- generic [active] [ref=f25e1]:
+  - button "Open Next.js Dev Tools" [ref=f25e391] [cursor=pointer]
+  - alert [ref=f25e395]: THINGS I'VE BUILT.
+  - generic [ref=f25e406]:
+    - banner [ref=f25e407]:
+      - generic [ref=f25e408]:
+        - link "Rijul." [ref=f25e409] [cursor=pointer]:
+          - /url: /#home
+        - button "Open menu" [ref=f25e410]
+      - dialog:
+        - generic:
+          - link:
+            - /url: /
+            - text: Home
+          - link:
+            - /url: /services
+            - text: Services
+          - link:
+            - /url: /work
+            - text: Work
+          - link:
+            - /url: /about
+            - text: About
+          - link:
+            - /url: /contact
+            - text: Contact
+          - link:
+            - /url: /#contact
+            - text: Hire Me
+    - main [ref=f25e413]:
+      - generic [ref=f25e415]:
+        - generic [ref=f25e416]:
+          - generic [ref=f25e417]:
+            - generic [ref=f25e418]: 04 /
+            - generic [ref=f25e419]: Selected Work
+          - heading "Things I've Built." [level=1] [ref=f25e420]:
+            - generic [ref=f25e421]: Things
+            - generic [ref=f25e422]: I've Built.
+        - generic [ref=f25e423]:
+          - generic [ref=f25e424]:
+            - link [ref=f25e425] [cursor=pointer]:
+              - /url: /work/saptarishi-platform
+              - img "SAPTARISHI PLATFORM" [ref=f25e426]
+            - generic [ref=f25e428]:
+              - generic [ref=f25e429]: "01"
+              - heading "SAPTARISHI PLATFORM" [level=3] [ref=f25e430]
+              - generic [ref=f25e431]:
+                - generic [ref=f25e432]: Full-Stack Web App
+                - generic [ref=f25e433]: React
+                - generic [ref=f25e434]: .NET
+                - generic [ref=f25e435]: PostgreSQL
+              - link "View Project" [ref=f25e437] [cursor=pointer]:
+                - /url: /work/saptarishi-platform
+          - generic [ref=f25e441]:
+            - link [ref=f25e442] [cursor=pointer]:
+              - /url: /work/digital-exhibition
+              - img "DIGITAL EXHIBITION" [ref=f25e443]
+            - generic [ref=f25e445]:
+              - generic [ref=f25e446]: "02"
+              - heading "DIGITAL EXHIBITION" [level=3] [ref=f25e447]
+              - generic [ref=f25e448]:
+                - generic [ref=f25e449]: 3D Experience
+                - generic [ref=f25e450]: Next.js
+                - generic [ref=f25e451]: Three.js
+                - generic [ref=f25e452]: GSAP
+              - link "View Project" [ref=f25e454] [cursor=pointer]:
+                - /url: /work/digital-exhibition
+      - generic [ref=f25e459]:
+        - generic [ref=f25e460]:
+          - generic [ref=f25e461]:
+            - heading "Rijul." [level=2] [ref=f25e462]
+            - paragraph [ref=f25e463]: UI/UX Designer & Developer
+          - generic [ref=f25e464]:
+            - generic [ref=f25e465]: Navigation
+            - link "Home" [ref=f25e466] [cursor=pointer]:
+              - /url: /#home
+            - link "Intro" [ref=f25e467] [cursor=pointer]:
+              - /url: /#intro
+            - link "About" [ref=f25e468] [cursor=pointer]:
+              - /url: /#about
+            - link "Skills" [ref=f25e469] [cursor=pointer]:
+              - /url: /#skills
+            - link "Services" [ref=f25e470] [cursor=pointer]:
+              - /url: /#services
+            - link "Work" [ref=f25e471] [cursor=pointer]:
+              - /url: /#work
+            - link "Experience" [ref=f25e472] [cursor=pointer]:
+              - /url: /#experience
+            - link "Education" [ref=f25e473] [cursor=pointer]:
+              - /url: /#education
+            - link "Contact" [ref=f25e474] [cursor=pointer]:
+              - /url: /#contact
+          - generic [ref=f25e475]:
+            - generic [ref=f25e476]: Contact
+            - link "rijuldhakal95@gmail.com" [ref=f25e477] [cursor=pointer]:
+              - /url: mailto:rijuldhakal95@gmail.com
+            - generic [ref=f25e478]:
+              - link "GH" [ref=f25e479] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "IN" [ref=f25e480] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+              - link "X" [ref=f25e481] [cursor=pointer]:
+                - /url: https://x.com/
+        - generic [ref=f25e482]:
+          - generic [ref=f25e483]: © 2026 Rijul Dhakal. All rights reserved.
+          - generic [ref=f25e484]: Built with curiosity.

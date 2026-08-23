@@ -1,0 +1,9 @@
+- generic [active] [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e7] [cursor=pointer]
+  - main [ref=f5e11]:
+    - generic [ref=f5e12]: "404"
+    - heading "This page doesn't exist." [level=1] [ref=f5e13]
+    - paragraph [ref=f5e14]: The page you are looking for may have been moved or never existed.
+    - link "Back to Home" [ref=f5e15] [cursor=pointer]:
+      - /url: /
+  - alert [ref=f5e16]

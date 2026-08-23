@@ -1,0 +1,527 @@
+- generic [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e7] [cursor=pointer]
+  - alert [ref=f1e11]
+  - generic [ref=f1e12]:
+    - complementary [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic [ref=f1e15]:
+          - link "Rijul." [ref=f1e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f1e17]: CMS
+        - navigation [ref=f1e18]:
+          - link "01 Dashboard" [ref=f1e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f1e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f1e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f1e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f1e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f1e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f1e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f1e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f1e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f1e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f1e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f1e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f1e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f1e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f1e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f1e34]: "08"
+            - text: Education
+          - link "09 Media" [ref=f1e35] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f1e36]: "09"
+            - text: Media
+          - link "10 Messages" [ref=f1e37] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f1e38]: "10"
+            - text: Messages
+          - link "11 Settings" [ref=f1e39] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f1e40]: "11"
+            - text: Settings
+          - link "12 Social Links" [ref=f1e41] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f1e42]: "12"
+            - text: Social Links
+          - link "13 Typography" [ref=f1e43] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f1e44]: "13"
+            - text: Typography
+        - generic [ref=f1e45]:
+          - generic [ref=f1e46]:
+            - generic [ref=f1e47]: Signed in
+            - generic [ref=f1e48]: admin@rijuldhakal.com
+          - generic [ref=f1e49]:
+            - link "View Site" [ref=f1e50] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f1e51]
+    - main [ref=f1e52]:
+      - generic [ref=f1e57]:
+        - generic [ref=f1e58]:
+          - generic [ref=f1e59]:
+            - heading "Hero" [level=1] [ref=f1e60]
+            - paragraph [ref=f1e61]: The first section visitors see. The design and animation stay as-is; content comes from here.
+          - generic [ref=f1e63]:
+            - generic [ref=f1e64]:
+              - button "Aa" [expanded] [active] [ref=f1e65]
+              - dialog "Hero" [ref=f1e136]:
+                - generic [ref=f1e137]:
+                  - generic [ref=f1e138]:
+                    - paragraph [ref=f1e139]: Hero
+                    - paragraph [ref=f1e140]: Override typography for the Hero section.
+                  - button "Close" [ref=f1e141]: ✕
+                - generic [ref=f1e142]:
+                  - generic [ref=f1e143]:
+                    - generic [ref=f1e144]:
+                      - generic [ref=f1e145]:
+                        - generic [ref=f1e146]: Greeting
+                        - generic [ref=f1e147]: body
+                      - button "Reset" [ref=f1e148]
+                    - generic [ref=f1e149]:
+                      - generic [ref=f1e150]:
+                        - generic [ref=f1e151]: Font
+                        - combobox [ref=f1e153]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e154]:
+                        - generic [ref=f1e155]: Weight
+                        - combobox [ref=f1e157]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e158]:
+                        - generic [ref=f1e159]: Uppercase
+                        - generic [ref=f1e161]:
+                          - button "Default" [ref=f1e162]
+                          - button "Uppercase" [ref=f1e163]
+                          - button "None" [ref=f1e164]
+                      - generic [ref=f1e165]:
+                        - generic [ref=f1e166]: Size
+                        - textbox "Inherit" [ref=f1e168]
+                        - paragraph [ref=f1e169]: e.g. 2rem, clamp(...)
+                      - generic [ref=f1e170]:
+                        - generic [ref=f1e171]: Spacing
+                        - textbox "Inherit" [ref=f1e173]
+                        - paragraph [ref=f1e174]: e.g. 0.05em
+                      - generic [ref=f1e175]:
+                        - generic [ref=f1e176]: Line height
+                        - textbox "Inherit" [ref=f1e178]
+                        - paragraph [ref=f1e179]: e.g. 1.15
+                  - generic [ref=f1e180]:
+                    - generic [ref=f1e181]:
+                      - generic [ref=f1e182]:
+                        - generic [ref=f1e183]: Name (letters)
+                        - generic [ref=f1e184]: heading
+                      - button "Reset" [ref=f1e185]
+                    - generic [ref=f1e186]:
+                      - generic [ref=f1e187]:
+                        - generic [ref=f1e188]: Font
+                        - combobox [ref=f1e190]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e191]:
+                        - generic [ref=f1e192]: Weight
+                        - combobox [ref=f1e194]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e195]:
+                        - generic [ref=f1e196]: Align
+                        - combobox [ref=f1e198]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e199]:
+                        - generic [ref=f1e200]: Spacing
+                        - textbox "Inherit" [ref=f1e202]
+                        - paragraph [ref=f1e203]: e.g. 0.05em
+                      - generic [ref=f1e204]:
+                        - generic [ref=f1e205]: Line height
+                        - textbox "Inherit" [ref=f1e207]
+                        - paragraph [ref=f1e208]: e.g. 1.15
+                    - generic [ref=f1e209]:
+                      - generic [ref=f1e210]: Uppercase
+                      - generic [ref=f1e211]:
+                        - button "Default" [ref=f1e212]
+                        - button "Uppercase" [ref=f1e213]
+                        - button "None" [ref=f1e214]
+                  - generic [ref=f1e215]:
+                    - generic [ref=f1e216]:
+                      - generic [ref=f1e217]:
+                        - generic [ref=f1e218]: Title
+                        - generic [ref=f1e219]: heading
+                      - button "Reset" [ref=f1e220]
+                    - generic [ref=f1e221]:
+                      - generic [ref=f1e222]:
+                        - generic [ref=f1e223]: Font
+                        - combobox [ref=f1e225]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e226]:
+                        - generic [ref=f1e227]: Weight
+                        - combobox [ref=f1e229]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e230]:
+                        - generic [ref=f1e231]: Align
+                        - combobox [ref=f1e233]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e234]:
+                        - generic [ref=f1e235]: Spacing
+                        - textbox "Inherit" [ref=f1e237]
+                        - paragraph [ref=f1e238]: e.g. 0.05em
+                      - generic [ref=f1e239]:
+                        - generic [ref=f1e240]: Line height
+                        - textbox "Inherit" [ref=f1e242]
+                        - paragraph [ref=f1e243]: e.g. 1.15
+                    - generic [ref=f1e244]:
+                      - generic [ref=f1e245]: Uppercase
+                      - generic [ref=f1e246]:
+                        - button "Default" [ref=f1e247]
+                        - button "Uppercase" [ref=f1e248]
+                        - button "None" [ref=f1e249]
+                  - generic [ref=f1e250]:
+                    - generic [ref=f1e251]:
+                      - generic [ref=f1e252]:
+                        - generic [ref=f1e253]: Description
+                        - generic [ref=f1e254]: body
+                      - button "Reset" [ref=f1e255]
+                    - generic [ref=f1e256]:
+                      - generic [ref=f1e257]:
+                        - generic [ref=f1e258]: Font
+                        - combobox [ref=f1e260]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e261]:
+                        - generic [ref=f1e262]: Weight
+                        - combobox [ref=f1e264]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e265]:
+                        - generic [ref=f1e266]: Align
+                        - combobox [ref=f1e268]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e269]:
+                        - generic [ref=f1e270]: Size
+                        - textbox "Inherit" [ref=f1e272]
+                        - paragraph [ref=f1e273]: e.g. 2rem, clamp(...)
+                      - generic [ref=f1e274]:
+                        - generic [ref=f1e275]: Spacing
+                        - textbox "Inherit" [ref=f1e277]
+                        - paragraph [ref=f1e278]: e.g. 0.05em
+                      - generic [ref=f1e279]:
+                        - generic [ref=f1e280]: Line height
+                        - textbox "Inherit" [ref=f1e282]
+                        - paragraph [ref=f1e283]: e.g. 1.15
+                    - generic [ref=f1e284]:
+                      - generic [ref=f1e285]: Uppercase
+                      - generic [ref=f1e286]:
+                        - button "Default" [ref=f1e287]
+                        - button "Uppercase" [ref=f1e288]
+                        - button "None" [ref=f1e289]
+                  - generic [ref=f1e290]:
+                    - generic [ref=f1e291]:
+                      - generic [ref=f1e292]:
+                        - generic [ref=f1e293]: Availability badge
+                        - generic [ref=f1e294]: body
+                      - button "Reset" [ref=f1e295]
+                    - generic [ref=f1e296]:
+                      - generic [ref=f1e297]:
+                        - generic [ref=f1e298]: Font
+                        - combobox [ref=f1e300]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e301]:
+                        - generic [ref=f1e302]: Weight
+                        - combobox [ref=f1e304]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e305]:
+                        - generic [ref=f1e306]: Align
+                        - combobox [ref=f1e308]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e309]:
+                        - generic [ref=f1e310]: Size
+                        - textbox "Inherit" [ref=f1e312]
+                        - paragraph [ref=f1e313]: e.g. 2rem, clamp(...)
+                      - generic [ref=f1e314]:
+                        - generic [ref=f1e315]: Spacing
+                        - textbox "Inherit" [ref=f1e317]
+                        - paragraph [ref=f1e318]: e.g. 0.05em
+                      - generic [ref=f1e319]:
+                        - generic [ref=f1e320]: Line height
+                        - textbox "Inherit" [ref=f1e322]
+                        - paragraph [ref=f1e323]: e.g. 1.15
+                    - generic [ref=f1e324]:
+                      - generic [ref=f1e325]: Uppercase
+                      - generic [ref=f1e326]:
+                        - button "Default" [ref=f1e327]
+                        - button "Uppercase" [ref=f1e328]
+                        - button "None" [ref=f1e329]
+                  - generic [ref=f1e330]:
+                    - generic [ref=f1e331]:
+                      - generic [ref=f1e332]:
+                        - generic [ref=f1e333]: Primary button
+                        - generic [ref=f1e334]: body
+                      - button "Reset" [ref=f1e335]
+                    - generic [ref=f1e336]:
+                      - generic [ref=f1e337]:
+                        - generic [ref=f1e338]: Font
+                        - combobox [ref=f1e340]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e341]:
+                        - generic [ref=f1e342]: Weight
+                        - combobox [ref=f1e344]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e345]:
+                        - generic [ref=f1e346]: Align
+                        - combobox [ref=f1e348]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e349]:
+                        - generic [ref=f1e350]: Size
+                        - textbox "Inherit" [ref=f1e352]
+                        - paragraph [ref=f1e353]: e.g. 2rem, clamp(...)
+                      - generic [ref=f1e354]:
+                        - generic [ref=f1e355]: Spacing
+                        - textbox "Inherit" [ref=f1e357]
+                        - paragraph [ref=f1e358]: e.g. 0.05em
+                      - generic [ref=f1e359]:
+                        - generic [ref=f1e360]: Line height
+                        - textbox "Inherit" [ref=f1e362]
+                        - paragraph [ref=f1e363]: e.g. 1.15
+                    - generic [ref=f1e364]:
+                      - generic [ref=f1e365]: Uppercase
+                      - generic [ref=f1e366]:
+                        - button "Default" [ref=f1e367]
+                        - button "Uppercase" [ref=f1e368]
+                        - button "None" [ref=f1e369]
+                  - generic [ref=f1e370]:
+                    - generic [ref=f1e371]:
+                      - generic [ref=f1e372]:
+                        - generic [ref=f1e373]: Secondary button
+                        - generic [ref=f1e374]: body
+                      - button "Reset" [ref=f1e375]
+                    - generic [ref=f1e376]:
+                      - generic [ref=f1e377]:
+                        - generic [ref=f1e378]: Font
+                        - combobox [ref=f1e380]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                      - generic [ref=f1e381]:
+                        - generic [ref=f1e382]: Weight
+                        - combobox [ref=f1e384]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f1e385]:
+                        - generic [ref=f1e386]: Align
+                        - combobox [ref=f1e388]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f1e389]:
+                        - generic [ref=f1e390]: Size
+                        - textbox "Inherit" [ref=f1e392]
+                        - paragraph [ref=f1e393]: e.g. 2rem, clamp(...)
+                      - generic [ref=f1e394]:
+                        - generic [ref=f1e395]: Spacing
+                        - textbox "Inherit" [ref=f1e397]
+                        - paragraph [ref=f1e398]: e.g. 0.05em
+                      - generic [ref=f1e399]:
+                        - generic [ref=f1e400]: Line height
+                        - textbox "Inherit" [ref=f1e402]
+                        - paragraph [ref=f1e403]: e.g. 1.15
+                    - generic [ref=f1e404]:
+                      - generic [ref=f1e405]: Uppercase
+                      - generic [ref=f1e406]:
+                        - button "Default" [ref=f1e407]
+                        - button "Uppercase" [ref=f1e408]
+                        - button "None" [ref=f1e409]
+                - generic [ref=f1e410]:
+                  - button "Reset section" [ref=f1e411]
+                  - button "Save typography" [ref=f1e412]
+            - button "Save hero" [ref=f1e66]
+        - generic [ref=f1e68]:
+          - generic [ref=f1e69]:
+            - generic [ref=f1e70]: Greeting
+            - textbox "Hello, I'm" [ref=f1e72]: Hello I'm
+          - generic [ref=f1e73]:
+            - generic [ref=f1e74]: Name
+            - textbox "Rijul Dhakal" [ref=f1e76]
+          - generic [ref=f1e78]:
+            - generic [ref=f1e79]: Title
+            - textbox "UI/UX Designer & Developer" [ref=f1e81]
+          - generic [ref=f1e83]:
+            - generic [ref=f1e84]: Description
+            - textbox [ref=f1e86]: I'm a UI/UX Designer and Developer who enjoys turning ideas into intuitive interfaces and functional digital products. My work combines design thinking, frontend development, backend development, and business understanding.
+          - generic [ref=f1e88]:
+            - generic [ref=f1e89]: Profile photo
+            - generic [ref=f1e91]:
+              - textbox "/uploads/… or https://…" [ref=f1e92]: http://localhost:5261/uploads/general/e9f45756ce814438aef1957f6ca95095.png
+              - button "Pick" [ref=f1e93]
+            - paragraph [ref=f1e94]: Featured in the Hero section with the torch effect. Use a portrait image.
+          - img "Profile preview" [ref=f1e96]
+          - generic [ref=f1e98]:
+            - generic [ref=f1e99]: CV file
+            - generic [ref=f1e101]:
+              - textbox "/uploads/… or https://…" [ref=f1e102]: http://localhost:5261/uploads/general/241c663adbc5482ca1fdb38241a2f2ca.pdf
+              - button "Pick" [ref=f1e103]
+            - paragraph [ref=f1e104]: Downloadable resume linked from the Hero buttons.
+          - generic [ref=f1e105]:
+            - generic [ref=f1e106]: CV file name
+            - textbox "Rijul-Dhakal-CV.pdf" [ref=f1e108]
+            - paragraph [ref=f1e109]: Name shown when visitors download the CV.
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]: Availability text
+            - textbox "Available for work" [ref=f1e113]: Available for freelance work
+          - generic [ref=f1e114]:
+            - generic [ref=f1e115]: Primary button text
+            - textbox "View my work" [ref=f1e117]: VIEW MY WORK
+          - generic [ref=f1e118]:
+            - generic [ref=f1e119]: Primary button URL
+            - textbox "#work or https://…" [ref=f1e121]: "#work"
+          - generic [ref=f1e122]:
+            - generic [ref=f1e123]: Secondary button text
+            - textbox "Download CV" [ref=f1e125]: DOWNLOAD CV
+          - generic [ref=f1e126]:
+            - generic [ref=f1e127]: Secondary button URL
+            - textbox "https://…/CV.pdf" [ref=f1e129]
+          - button "Visible on the public site" [pressed] [ref=f1e131]

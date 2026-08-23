@@ -1,0 +1,337 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Rijul." [ref=f1e5] [cursor=pointer]:
+          - /url: "#home"
+        - navigation [ref=f1e6]:
+          - link "Home" [ref=f1e7] [cursor=pointer]:
+            - /url: "#home"
+          - link "Services" [ref=f1e8] [cursor=pointer]:
+            - /url: "#services"
+          - link "Work" [ref=f1e9] [cursor=pointer]:
+            - /url: "#work"
+          - link "About" [ref=f1e10] [cursor=pointer]:
+            - /url: "#about"
+          - link "Contact" [ref=f1e11] [cursor=pointer]:
+            - /url: "#contact"
+        - link "Hire Me" [ref=f1e12] [cursor=pointer]:
+          - /url: "#contact"
+    - main [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic:
+          - generic [ref=f1e15]: UI/UX Designer & Developer
+          - generic:
+            - generic:
+              - generic [ref=f1e16]: R
+              - generic [ref=f1e17]: I
+              - generic [ref=f1e18]: J
+              - generic [ref=f1e19]: U
+              - generic [ref=f1e20]: L
+            - generic:
+              - generic [ref=f1e21]: D
+              - generic [ref=f1e22]: H
+              - generic [ref=f1e23]: A
+              - generic [ref=f1e24]: K
+              - generic [ref=f1e25]: A
+              - generic [ref=f1e26]: L
+              - generic: .
+          - generic [ref=f1e27]:
+            - paragraph [ref=f1e28]: I'm a UI/UX Designer and Developer who enjoys turning ideas into intuitive interfaces and functional digital products. My work combines design thinking, frontend development, backend development, and business understanding.
+            - generic [ref=f1e29]:
+              - link "VIEW MY WORK" [ref=f1e30] [cursor=pointer]:
+                - /url: "#work"
+              - button "DOWNLOAD CV" [ref=f1e31]
+      - generic [ref=f1e33]:
+        - generic [ref=f1e34]:
+          - generic [ref=f1e35]: I DESIGN.
+          - generic [ref=f1e37]: I BUILD.
+          - generic [ref=f1e39]: I EXPERIMENT.
+        - paragraph [ref=f1e42]: I'm Rijul Dhakal, a UI/UX Designer and Developer focused on creating thoughtful digital experiences and modern web applications.
+      - generic [ref=f1e44]:
+        - generic [ref=f1e45]:
+          - generic [ref=f1e46]:
+            - generic [ref=f1e47]: 01 /
+            - generic [ref=f1e48]: About
+          - heading [level=2] [ref=f1e49]:
+            - generic [ref=f1e50]: Designing with purpose.
+            - text: Building with code.
+        - generic [ref=f1e51]:
+          - paragraph [ref=f1e52]: I'm a UI/UX Designer and Developer who enjoys turning ideas into intuitive interfaces and functional digital products. My work combines design thinking, frontend development, backend development, and business understanding.
+          - generic [ref=f1e53]:
+            - generic [ref=f1e54]:
+              - generic [ref=f1e55]:
+                - generic [ref=f1e56]: "00"
+                - generic [ref=f1e57]: +
+              - generic [ref=f1e58]: Years Experience
+            - generic [ref=f1e59]:
+              - generic [ref=f1e60]:
+                - generic [ref=f1e61]: "00"
+                - generic [ref=f1e62]: +
+              - generic [ref=f1e63]: Projects
+            - generic [ref=f1e64]:
+              - generic [ref=f1e65]:
+                - generic [ref=f1e66]: "00"
+                - generic [ref=f1e67]: +
+              - generic [ref=f1e68]: Technologies
+      - generic [ref=f1e70]:
+        - generic [ref=f1e72]:
+          - generic [ref=f1e73]:
+            - generic [ref=f1e74]: 02 /
+            - generic [ref=f1e75]: Skills
+          - heading "Tools I Work With." [level=2] [ref=f1e76]:
+            - generic [ref=f1e77]: Tools I
+            - generic [ref=f1e78]: Work With.
+        - generic [ref=f1e79]:
+          - generic: RIJUL
+          - generic [ref=f1e80] [cursor=pointer]: Figma
+          - generic [ref=f1e81] [cursor=pointer]: Wireframing
+          - generic [ref=f1e82] [cursor=pointer]: Entrepreneurship
+          - generic [ref=f1e83] [cursor=pointer]: React
+          - generic [ref=f1e84] [cursor=pointer]: Next.js
+          - generic [ref=f1e85] [cursor=pointer]: UX Research
+          - generic [ref=f1e86] [cursor=pointer]: Journey Maps
+          - generic [ref=f1e87] [cursor=pointer]: UI/UX Training
+          - generic [ref=f1e88] [cursor=pointer]: Prototyping
+          - generic [ref=f1e89] [cursor=pointer]: Visual Design
+          - generic [ref=f1e90] [cursor=pointer]: Food Distribution
+          - generic [ref=f1e91] [cursor=pointer]: TypeScript
+          - generic [ref=f1e92] [cursor=pointer]: Saptarishi Group
+          - generic [ref=f1e93] [cursor=pointer]: PostgreSQL
+          - generic [ref=f1e94] [cursor=pointer]: JavaScript
+          - generic [ref=f1e95] [cursor=pointer]: FastAPI
+          - generic [ref=f1e96] [cursor=pointer]: ASP.NET Core
+          - generic [ref=f1e97] [cursor=pointer]: Tailwind CSS
+          - generic [ref=f1e98] [cursor=pointer]: Node.js
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]:
+          - generic [ref=f1e102]:
+            - generic [ref=f1e103]: 03 /
+            - generic [ref=f1e104]: Services
+          - heading "What I Can Do." [level=2] [ref=f1e105]:
+            - generic [ref=f1e106]: What I
+            - generic [ref=f1e107]: Can Do.
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109] [cursor=pointer]:
+            - generic [ref=f1e111]:
+              - generic [ref=f1e112]: "01"
+              - heading "UI/UX DESIGN" [level=3] [ref=f1e113]
+            - generic [ref=f1e114]:
+              - generic [ref=f1e115]:
+                - generic [ref=f1e116]: Wireframing
+                - generic [ref=f1e117]: Prototyping
+                - generic [ref=f1e118]: UX Research
+                - generic [ref=f1e119]: Visual Design
+                - generic [ref=f1e120]: Interaction Design
+              - paragraph [ref=f1e121]: Designing intuitive and visually engaging digital experiences that balance user needs with business goals.
+          - generic [ref=f1e125] [cursor=pointer]:
+            - generic [ref=f1e127]:
+              - generic [ref=f1e128]: "02"
+              - heading "WEB DEVELOPMENT" [level=3] [ref=f1e129]
+            - generic [ref=f1e130]:
+              - generic [ref=f1e131]:
+                - generic [ref=f1e132]: Frontend Development
+                - generic [ref=f1e133]: Backend Development
+                - generic [ref=f1e134]: REST APIs
+                - generic [ref=f1e135]: Database Integration
+                - generic [ref=f1e136]: Responsive Applications
+              - paragraph [ref=f1e137]: Building modern, scalable web applications from interface to backend.
+          - generic [ref=f1e141] [cursor=pointer]:
+            - generic [ref=f1e143]:
+              - generic [ref=f1e144]: "03"
+              - heading "DIGITAL PRODUCT DESIGN" [level=3] [ref=f1e145]
+            - generic [ref=f1e146]:
+              - generic [ref=f1e147]:
+                - generic [ref=f1e148]: User Flows
+                - generic [ref=f1e149]: Design Systems
+                - generic [ref=f1e150]: Responsive Interfaces
+                - generic [ref=f1e151]: Interaction Design
+              - paragraph [ref=f1e152]: Turning product ideas into structured, usable and engaging digital experiences.
+          - generic [ref=f1e156] [cursor=pointer]:
+            - generic [ref=f1e158]:
+              - generic [ref=f1e159]: "04"
+              - heading "TRAINING" [level=3] [ref=f1e160]
+            - generic [ref=f1e161]:
+              - generic [ref=f1e162]:
+                - generic [ref=f1e163]: UI/UX Crash Courses
+                - generic [ref=f1e164]: 30-Day Courses
+                - generic [ref=f1e165]: 1-Week Intensive
+                - generic [ref=f1e166]: Workshops
+                - generic [ref=f1e167]: Training Sessions
+              - paragraph [ref=f1e168]: Helping learners build practical UI/UX and digital skills through focused training.
+      - generic [ref=f1e173]:
+        - generic [ref=f1e174]:
+          - generic [ref=f1e175]:
+            - generic [ref=f1e176]: 04 /
+            - generic [ref=f1e177]: Selected Work
+          - heading "Things I've Built." [level=2] [ref=f1e178]:
+            - generic [ref=f1e179]: Things
+            - generic [ref=f1e180]: I've Built.
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]:
+            - img "SAPTARISHI PLATFORM" [ref=f1e184]
+            - generic [ref=f1e186]:
+              - generic [ref=f1e187]: "01"
+              - heading "SAPTARISHI PLATFORM" [level=3] [ref=f1e188]
+              - generic [ref=f1e189]:
+                - generic [ref=f1e190]: Full-Stack Web App
+                - generic [ref=f1e191]: "|"
+                - generic [ref=f1e192]: React
+                - generic [ref=f1e193]: .NET
+                - generic [ref=f1e194]: PostgreSQL
+              - link "View Project" [ref=f1e196] [cursor=pointer]:
+                - /url: /work/saptarishi-platform
+          - generic [ref=f1e200]:
+            - img "DIGITAL EXHIBITION" [ref=f1e202]
+            - generic [ref=f1e204]:
+              - generic [ref=f1e205]: "02"
+              - heading "DIGITAL EXHIBITION" [level=3] [ref=f1e206]
+              - generic [ref=f1e207]:
+                - generic [ref=f1e208]: 3D Experience
+                - generic [ref=f1e209]: "|"
+                - generic [ref=f1e210]: Next.js
+                - generic [ref=f1e211]: Three.js
+                - generic [ref=f1e212]: GSAP
+              - link "View Project" [ref=f1e214] [cursor=pointer]:
+                - /url: /work/digital-exhibition
+      - generic [ref=f1e219]:
+        - generic [ref=f1e220]:
+          - generic [ref=f1e221]:
+            - generic [ref=f1e222]: 05 /
+            - generic [ref=f1e223]: Experience
+          - heading "The Journey So Far." [level=2] [ref=f1e224]:
+            - generic [ref=f1e225]: The Journey
+            - generic [ref=f1e226]: So Far.
+        - generic [ref=f1e229]:
+          - generic [ref=f1e232]:
+            - generic [ref=f1e233]:
+              - generic [ref=f1e234]: 2024 — PRESENT
+              - heading "Freelance UI/UX Designer & Developer" [level=3] [ref=f1e235]
+            - paragraph [ref=f1e238]: Designing and building digital products for various clients. Focusing on full-stack development with React, Next.js, and .NET.
+          - generic [ref=f1e241]:
+            - generic [ref=f1e242]:
+              - generic [ref=f1e243]: 2023 — 2024
+              - heading "Saptarishi Business Group" [level=3] [ref=f1e244]
+            - paragraph [ref=f1e247]: Involved in entrepreneurship, strategic planning, and operational management. Developed internal tools and platforms.
+          - generic [ref=f1e250]:
+            - generic [ref=f1e251]:
+              - generic [ref=f1e252]: 2022 — 2023
+              - heading "UI/UX Training Instructor" [level=3] [ref=f1e253]
+            - paragraph [ref=f1e256]: Conducted workshops, 30-day crash courses, and 1-week intensive sessions to help learners build practical digital skills.
+      - generic [ref=f1e258]:
+        - generic [ref=f1e259]:
+          - generic [ref=f1e260]:
+            - generic [ref=f1e261]: 06 /
+            - generic [ref=f1e262]: Education
+          - heading "Where I Learned." [level=2] [ref=f1e263]:
+            - generic [ref=f1e264]: Where I
+            - generic [ref=f1e265]: Learned.
+        - generic [ref=f1e266]:
+          - generic [ref=f1e267]:
+            - generic [ref=f1e268]:
+              - generic [ref=f1e269]:
+                - heading "Bachelor of Information Management" [level=3] [ref=f1e270]
+                - generic [ref=f1e271]: Nepal Commerce Campus
+              - generic [ref=f1e272]:
+                - generic [ref=f1e273]: "2022"
+                - generic [ref=f1e274]: —
+                - generic [ref=f1e275]: ongoing
+            - paragraph [ref=f1e276]: Focus on business management principles combined with modern information technology. Blended coursework in UI/UX, software engineering, and business strategy.
+          - generic [ref=f1e277]:
+            - generic [ref=f1e278]:
+              - generic [ref=f1e279]:
+                - heading "Secondary Education (+2) of Management" [level=3] [ref=f1e280]
+                - generic [ref=f1e281]: Prasadi Academy
+              - generic [ref=f1e282]:
+                - generic [ref=f1e283]: "2020"
+                - generic [ref=f1e284]: —
+                - generic [ref=f1e285]: "2022"
+            - paragraph [ref=f1e286]: Completed Plus Two (+2) Management at Prasadi Academy, one of Nepal's premier academic institutions. Gained foundational knowledge in business studies, accounting, and economics, while developing essential problem-solving and organizational skills.
+      - generic [ref=f1e287]:
+        - heading "Beyond the Screen." [level=2] [ref=f1e288]
+        - generic [ref=f1e290]:
+          - generic [ref=f1e291]: Design
+          - generic [ref=f1e292]: ✦
+          - generic [ref=f1e293]: Code
+          - generic [ref=f1e294]: ✦
+          - generic [ref=f1e295]: Business
+          - generic [ref=f1e296]: ✦
+          - generic [ref=f1e297]: Design
+          - generic [ref=f1e298]: ✦
+          - generic [ref=f1e299]: Code
+        - paragraph [ref=f1e300]: I enjoy working at the intersection of design, technology and business — creating experiences that aren't only visually engaging, but useful and practical.
+      - generic [ref=f1e302]:
+        - generic [ref=f1e303]:
+          - generic [ref=f1e304]: 07 /
+          - generic [ref=f1e305]: Contact
+        - generic [ref=f1e306]:
+          - generic [ref=f1e307]: LET'S
+          - generic [ref=f1e309]: MAKE
+          - generic [ref=f1e311]: SOMETHING.
+        - generic [ref=f1e313]:
+          - generic [ref=f1e314]:
+            - paragraph [ref=f1e315]: Have an idea, project or collaboration in mind? Let's talk.
+            - generic [ref=f1e316]:
+              - generic [ref=f1e317]:
+                - generic [ref=f1e318]: Email
+                - link "rijuldhakal95@gmail.com" [ref=f1e319] [cursor=pointer]:
+                  - /url: mailto:rijuldhakal95@gmail.com
+              - generic [ref=f1e320]:
+                - generic [ref=f1e321]: Phone
+                - link "+977 9746254793" [ref=f1e322] [cursor=pointer]:
+                  - /url: tel:+9779746254793
+          - generic [ref=f1e324]:
+            - generic [ref=f1e325]:
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]: Your Name
+                - textbox "Your Name" [ref=f1e328]:
+                  - /placeholder: John Doe
+              - generic [ref=f1e329]:
+                - generic [ref=f1e330]: Your Email
+                - textbox "Your Email" [ref=f1e331]:
+                  - /placeholder: john@example.com
+            - generic [ref=f1e332]:
+              - generic [ref=f1e333]: Your Message
+              - textbox "Your Message" [ref=f1e334]:
+                - /placeholder: Tell me about your project...
+            - button "SEND MESSAGE" [ref=f1e336]
+      - generic [ref=f1e340]:
+        - generic [ref=f1e341]:
+          - generic [ref=f1e342]:
+            - heading "Rijul." [level=2] [ref=f1e343]
+            - paragraph [ref=f1e344]: UI/UX Designer & Developer
+          - generic [ref=f1e345]:
+            - generic [ref=f1e346]: Navigation
+            - link "Home" [ref=f1e347] [cursor=pointer]:
+              - /url: "#home"
+            - link "Intro" [ref=f1e348] [cursor=pointer]:
+              - /url: "#intro"
+            - link "About" [ref=f1e349] [cursor=pointer]:
+              - /url: "#about"
+            - link "Skills" [ref=f1e350] [cursor=pointer]:
+              - /url: "#skills"
+            - link "Services" [ref=f1e351] [cursor=pointer]:
+              - /url: "#services"
+            - link "Work" [ref=f1e352] [cursor=pointer]:
+              - /url: "#work"
+            - link "Experience" [ref=f1e353] [cursor=pointer]:
+              - /url: "#experience"
+            - link "Education" [ref=f1e354] [cursor=pointer]:
+              - /url: "#education"
+            - link "Contact" [ref=f1e355] [cursor=pointer]:
+              - /url: "#contact"
+          - generic [ref=f1e356]:
+            - generic [ref=f1e357]: Contact
+            - link "rijuldhakal95@gmail.com" [ref=f1e358] [cursor=pointer]:
+              - /url: mailto:rijuldhakal95@gmail.com
+            - generic [ref=f1e359]:
+              - link "GH" [ref=f1e360] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "IN" [ref=f1e361] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+              - link "X" [ref=f1e362] [cursor=pointer]:
+                - /url: https://x.com/
+        - generic [ref=f1e363]:
+          - generic [ref=f1e364]: © 2026 Rijul Dhakal. All rights reserved.
+          - generic [ref=f1e365]: Built with curiosity.
+  - button "Open Next.js Dev Tools" [ref=f1e371] [cursor=pointer]

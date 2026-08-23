@@ -1,0 +1,47 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: portfolio-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: portfolio
+      POSTGRES_USER: portfolio
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-portfolio}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U portfolio -d portfolio"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      DATABASE_CONNECTION_STRING: Host=postgres;Port=5432;Database=portfolio;Username=portfolio;Password=${POSTGRES_PASSWORD:-portfolio}
+      JWT__SECRET: ${JWT_SECRET}
+      JWT__ISSUER: ${JWT_ISSUER:-Portfolio.Api}
+      JWT__AUDIENCE: ${JWT_AUDIENCE:-Portfolio.Cms}
+      CORS__ALLOWEDORIGINS__0: ${FRONTEND_URL:-http://localhost:3000}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@rijuldhakal.com}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-Admin@123!}
+      STORAGE__PROVIDER: ${STORAGE_PROVIDER:-local}
+      STORAGE__LOCALPATH: uploads
+    ports:
+      - "8080:8080"
+    volumes:
+      - uploads_data:/app/uploads
+
+volumes:
+  postgres_data:
+  uploads_data:

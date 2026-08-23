@@ -1,0 +1,20 @@
+# Build results
+bin/
+obj/
+artifacts/
+
+# Environment files
+.env
+*.local
+
+# Uploads
+uploads/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.user
+
+# OS
+.DS_Store

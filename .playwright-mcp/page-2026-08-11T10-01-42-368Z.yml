@@ -1,0 +1,98 @@
+- generic [active] [ref=f3e1]:
+  - button "Open Next.js Dev Tools" [ref=f3e7] [cursor=pointer]
+  - alert [ref=f3e11]
+  - generic [ref=f3e12]:
+    - complementary [ref=f3e13]:
+      - generic [ref=f3e14]:
+        - generic [ref=f3e15]:
+          - link "Rijul." [ref=f3e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f3e17]: CMS
+        - navigation [ref=f3e18]:
+          - link "01 Dashboard" [ref=f3e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f3e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f3e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f3e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f3e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f3e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f3e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f3e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f3e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f3e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f3e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f3e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f3e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f3e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f3e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f3e34]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f3e35] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f3e36]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f3e37] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f3e38]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f3e39] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f3e40]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f3e41] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f3e42]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f3e43] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f3e44]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f3e45] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f3e46]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f3e47] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f3e48]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f3e49] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f3e50]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f3e51] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f3e52]: "17"
+            - text: Typography
+        - generic [ref=f3e53]:
+          - generic [ref=f3e54]:
+            - generic [ref=f3e55]: Signed in
+            - generic [ref=f3e56]: admin@rijuldhakal.com
+          - generic [ref=f3e57]:
+            - link "View Site" [ref=f3e58] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f3e59]
+    - main [ref=f3e60]:
+      - generic [ref=f3e62]:
+        - generic [ref=f3e63]:
+          - generic [ref=f3e64]:
+            - heading "Projects" [level=1] [ref=f3e65]
+            - paragraph [ref=f3e66]: Portfolio work items. Toggle publishing to control visibility on the public site.
+          - generic [ref=f3e68]:
+            - button "Aa" [ref=f3e70]
+            - button "New project" [ref=f3e71]
+        - generic [ref=f3e72]: Loading projects
+        - generic [ref=f3e75]: Loading site copy

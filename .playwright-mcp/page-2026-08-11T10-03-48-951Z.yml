@@ -1,0 +1,1464 @@
+- generic [active] [ref=f5e1]:
+  - button "Open Next.js Dev Tools" [ref=f5e7] [cursor=pointer]
+  - alert [ref=f5e11]
+  - generic [ref=f5e12]:
+    - complementary [ref=f5e13]:
+      - generic [ref=f5e14]:
+        - generic [ref=f5e15]:
+          - link "Rijul." [ref=f5e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f5e17]: CMS
+        - navigation [ref=f5e18]:
+          - link "01 Dashboard" [ref=f5e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f5e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f5e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f5e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f5e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f5e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f5e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f5e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f5e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f5e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f5e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f5e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f5e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f5e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f5e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f5e34]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f5e35] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f5e36]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f5e37] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f5e38]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f5e39] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f5e40]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f5e41] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f5e42]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f5e43] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f5e44]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f5e45] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f5e46]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f5e47] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f5e48]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f5e49] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f5e50]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f5e51] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f5e52]: "17"
+            - text: Typography
+        - generic [ref=f5e53]:
+          - generic [ref=f5e54]:
+            - generic [ref=f5e55]: Signed in
+            - generic [ref=f5e56]: admin@rijuldhakal.com
+          - generic [ref=f5e57]:
+            - link "View Site" [ref=f5e58] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f5e59]
+    - main [ref=f5e60]:
+      - generic [ref=f5e62]:
+        - generic [ref=f5e63]:
+          - generic [ref=f5e64]:
+            - heading "Typography" [level=1] [ref=f5e65]
+            - paragraph [ref=f5e66]: Global font defaults and per-element overrides. Changes apply instantly across the public site.
+          - button "Save typography" [ref=f5e68]
+        - generic [ref=f5e69]:
+          - generic [ref=f5e70]:
+            - generic [ref=f5e71]:
+              - heading "Global defaults" [level=2] [ref=f5e72]
+              - paragraph [ref=f5e73]: Applied to every element of that kind unless overridden below.
+            - generic [ref=f5e74]:
+              - generic [ref=f5e75]:
+                - generic [ref=f5e76]: Heading font
+                - combobox [ref=f5e78]:
+                  - option "Choose a font" [selected]
+                  - option "Inter"
+                  - option "Space Grotesk"
+                  - option "Archivo"
+                  - option "Sora"
+                  - option "Outfit"
+                  - option "Playfair Display"
+                  - option "Fraunces"
+                  - option "Syne"
+                  - option "Unbounded"
+                  - option "JetBrains Mono"
+              - generic [ref=f5e79]:
+                - generic [ref=f5e80]: Body font
+                - combobox [ref=f5e82]:
+                  - option "Choose a font" [selected]
+                  - option "Inter"
+                  - option "Space Grotesk"
+                  - option "Archivo"
+                  - option "Sora"
+                  - option "Outfit"
+                  - option "Playfair Display"
+                  - option "Fraunces"
+                  - option "Syne"
+                  - option "Unbounded"
+                  - option "JetBrains Mono"
+              - generic [ref=f5e83]:
+                - generic [ref=f5e84]: Heading size
+                - textbox "e.g. clamp(2rem, 5vw, 4rem)" [ref=f5e86]
+                - paragraph [ref=f5e87]: Leave blank to keep the component's design size.
+              - generic [ref=f5e88]:
+                - generic [ref=f5e89]: Body size
+                - textbox "e.g. 1.125rem" [ref=f5e91]
+                - paragraph [ref=f5e92]: Leave blank to keep the component's design size.
+              - generic [ref=f5e93]:
+                - generic [ref=f5e94]: Heading weight
+                - combobox [ref=f5e96]:
+                  - option "Inherit" [selected]
+                  - option "Light (300)"
+                  - option "Regular (400)"
+                  - option "Medium (500)"
+                  - option "Semibold (600)"
+                  - option "Bold (700)"
+                  - option "Extrabold (800)"
+                  - option "Black (900)"
+              - generic [ref=f5e97]:
+                - generic [ref=f5e98]: Body weight
+                - combobox [ref=f5e100]:
+                  - option "Inherit" [selected]
+                  - option "Light (300)"
+                  - option "Regular (400)"
+                  - option "Medium (500)"
+                  - option "Semibold (600)"
+                  - option "Bold (700)"
+                  - option "Extrabold (800)"
+                  - option "Black (900)"
+              - generic [ref=f5e101]:
+                - generic [ref=f5e102]: Heading letter spacing
+                - textbox "Inherit" [ref=f5e104]
+                - paragraph [ref=f5e105]: e.g. -0.02em
+              - generic [ref=f5e106]:
+                - generic [ref=f5e107]: Body letter spacing
+                - textbox "Inherit" [ref=f5e109]
+                - paragraph [ref=f5e110]: e.g. 0.01em
+              - generic [ref=f5e111]:
+                - generic [ref=f5e112]: Heading line height
+                - textbox "Inherit" [ref=f5e114]
+                - paragraph [ref=f5e115]: e.g. 1.1
+              - generic [ref=f5e116]:
+                - generic [ref=f5e117]: Body line height
+                - textbox "Inherit" [ref=f5e119]
+                - paragraph [ref=f5e120]: e.g. 1.6
+              - generic [ref=f5e121]:
+                - generic [ref=f5e122]: Heading casing
+                - generic [ref=f5e123]:
+                  - button "Default" [ref=f5e124]
+                  - button "Uppercase" [ref=f5e125]
+                  - button "None" [ref=f5e126]
+          - generic [ref=f5e127]:
+            - generic [ref=f5e128]:
+              - heading "Other text" [level=2] [ref=f5e129]
+              - paragraph [ref=f5e130]: "Text outside the CMS sections: intro, personal, contact, footer and navigation. Overrides here apply on top of the global defaults."
+            - generic [ref=f5e131]:
+              - generic [ref=f5e132]:
+                - heading "Intro" [level=3] [ref=f5e134]
+                - generic [ref=f5e135]:
+                  - generic [ref=f5e136]:
+                    - generic [ref=f5e137]:
+                      - generic [ref=f5e138]: Aa
+                      - generic [ref=f5e139]: Heading
+                      - generic [ref=f5e140]: heading
+                      - generic [ref=f5e141]:
+                        - generic [ref=f5e142]: Inherited
+                        - button "Reset" [ref=f5e143]
+                    - generic [ref=f5e144]:
+                      - generic [ref=f5e146]:
+                        - generic [ref=f5e147]: Font
+                        - combobox [ref=f5e149]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e150]: Inherited — Space Grotesk
+                      - generic [ref=f5e152]:
+                        - generic [ref=f5e153]: Weight
+                        - combobox [ref=f5e155]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e157]:
+                        - generic [ref=f5e158]: Align
+                        - combobox [ref=f5e160]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e162]:
+                        - generic [ref=f5e163]: Spacing
+                        - textbox "Inherit" [ref=f5e165]
+                        - paragraph [ref=f5e166]: e.g. 0.05em
+                      - generic [ref=f5e168]:
+                        - generic [ref=f5e169]: Line height
+                        - textbox "Inherit" [ref=f5e171]
+                        - paragraph [ref=f5e172]: e.g. 1.15
+                    - generic [ref=f5e173]:
+                      - generic [ref=f5e174]: Uppercase
+                      - generic [ref=f5e175]:
+                        - button "Default" [ref=f5e176]
+                        - button "Uppercase" [ref=f5e177]
+                        - button "None" [ref=f5e178]
+                  - generic [ref=f5e179]:
+                    - generic [ref=f5e180]:
+                      - generic [ref=f5e181]: Aa
+                      - generic [ref=f5e182]: Body
+                      - generic [ref=f5e183]: body
+                      - generic [ref=f5e184]:
+                        - generic [ref=f5e185]: Inherited
+                        - button "Reset" [ref=f5e186]
+                    - generic [ref=f5e187]:
+                      - generic [ref=f5e189]:
+                        - generic [ref=f5e190]: Font
+                        - combobox [ref=f5e192]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e193]: Inherited — Inter
+                      - generic [ref=f5e195]:
+                        - generic [ref=f5e196]: Weight
+                        - combobox [ref=f5e198]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e200]:
+                        - generic [ref=f5e201]: Align
+                        - combobox [ref=f5e203]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e205]:
+                        - generic [ref=f5e206]: Size
+                        - textbox "Inherit" [ref=f5e208]
+                        - paragraph [ref=f5e209]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e211]:
+                        - generic [ref=f5e212]: Spacing
+                        - textbox "Inherit" [ref=f5e214]
+                        - paragraph [ref=f5e215]: e.g. 0.05em
+                      - generic [ref=f5e217]:
+                        - generic [ref=f5e218]: Line height
+                        - textbox "Inherit" [ref=f5e220]
+                        - paragraph [ref=f5e221]: e.g. 1.15
+                    - generic [ref=f5e222]:
+                      - generic [ref=f5e223]: Uppercase
+                      - generic [ref=f5e224]:
+                        - button "Default" [ref=f5e225]
+                        - button "Uppercase" [ref=f5e226]
+                        - button "None" [ref=f5e227]
+              - generic [ref=f5e228]:
+                - heading "Personal" [level=3] [ref=f5e230]
+                - generic [ref=f5e231]:
+                  - generic [ref=f5e232]:
+                    - generic [ref=f5e233]:
+                      - generic [ref=f5e234]: Aa
+                      - generic [ref=f5e235]: Section label
+                      - generic [ref=f5e236]: body
+                      - generic [ref=f5e237]:
+                        - generic [ref=f5e238]: Inherited
+                        - button "Reset" [ref=f5e239]
+                    - generic [ref=f5e240]:
+                      - generic [ref=f5e242]:
+                        - generic [ref=f5e243]: Font
+                        - combobox [ref=f5e245]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e246]: Inherited — Inter
+                      - generic [ref=f5e248]:
+                        - generic [ref=f5e249]: Weight
+                        - combobox [ref=f5e251]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e253]:
+                        - generic [ref=f5e254]: Uppercase
+                        - generic [ref=f5e256]:
+                          - button "Default" [ref=f5e257]
+                          - button "Uppercase" [ref=f5e258]
+                          - button "None" [ref=f5e259]
+                      - generic [ref=f5e261]:
+                        - generic [ref=f5e262]: Size
+                        - textbox "Inherit" [ref=f5e264]
+                        - paragraph [ref=f5e265]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e267]:
+                        - generic [ref=f5e268]: Spacing
+                        - textbox "Inherit" [ref=f5e270]
+                        - paragraph [ref=f5e271]: e.g. 0.05em
+                      - generic [ref=f5e273]:
+                        - generic [ref=f5e274]: Line height
+                        - textbox "Inherit" [ref=f5e276]
+                        - paragraph [ref=f5e277]: e.g. 1.15
+                  - generic [ref=f5e278]:
+                    - generic [ref=f5e279]:
+                      - generic [ref=f5e280]: Aa
+                      - generic [ref=f5e281]: Heading
+                      - generic [ref=f5e282]: heading
+                      - generic [ref=f5e283]:
+                        - generic [ref=f5e284]: Inherited
+                        - button "Reset" [ref=f5e285]
+                    - generic [ref=f5e286]:
+                      - generic [ref=f5e288]:
+                        - generic [ref=f5e289]: Font
+                        - combobox [ref=f5e291]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e292]: Inherited — Space Grotesk
+                      - generic [ref=f5e294]:
+                        - generic [ref=f5e295]: Weight
+                        - combobox [ref=f5e297]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e299]:
+                        - generic [ref=f5e300]: Align
+                        - combobox [ref=f5e302]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e304]:
+                        - generic [ref=f5e305]: Spacing
+                        - textbox "Inherit" [ref=f5e307]
+                        - paragraph [ref=f5e308]: e.g. 0.05em
+                      - generic [ref=f5e310]:
+                        - generic [ref=f5e311]: Line height
+                        - textbox "Inherit" [ref=f5e313]
+                        - paragraph [ref=f5e314]: e.g. 1.15
+                    - generic [ref=f5e315]:
+                      - generic [ref=f5e316]: Uppercase
+                      - generic [ref=f5e317]:
+                        - button "Default" [ref=f5e318]
+                        - button "Uppercase" [ref=f5e319]
+                        - button "None" [ref=f5e320]
+                  - generic [ref=f5e321]:
+                    - generic [ref=f5e322]:
+                      - generic [ref=f5e323]: Aa
+                      - generic [ref=f5e324]: Body
+                      - generic [ref=f5e325]: body
+                      - generic [ref=f5e326]:
+                        - generic [ref=f5e327]: Inherited
+                        - button "Reset" [ref=f5e328]
+                    - generic [ref=f5e329]:
+                      - generic [ref=f5e331]:
+                        - generic [ref=f5e332]: Font
+                        - combobox [ref=f5e334]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e335]: Inherited — Inter
+                      - generic [ref=f5e337]:
+                        - generic [ref=f5e338]: Weight
+                        - combobox [ref=f5e340]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e342]:
+                        - generic [ref=f5e343]: Align
+                        - combobox [ref=f5e345]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e347]:
+                        - generic [ref=f5e348]: Size
+                        - textbox "Inherit" [ref=f5e350]
+                        - paragraph [ref=f5e351]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e353]:
+                        - generic [ref=f5e354]: Spacing
+                        - textbox "Inherit" [ref=f5e356]
+                        - paragraph [ref=f5e357]: e.g. 0.05em
+                      - generic [ref=f5e359]:
+                        - generic [ref=f5e360]: Line height
+                        - textbox "Inherit" [ref=f5e362]
+                        - paragraph [ref=f5e363]: e.g. 1.15
+                    - generic [ref=f5e364]:
+                      - generic [ref=f5e365]: Uppercase
+                      - generic [ref=f5e366]:
+                        - button "Default" [ref=f5e367]
+                        - button "Uppercase" [ref=f5e368]
+                        - button "None" [ref=f5e369]
+              - generic [ref=f5e370]:
+                - heading "Contact" [level=3] [ref=f5e372]
+                - generic [ref=f5e373]:
+                  - generic [ref=f5e374]:
+                    - generic [ref=f5e375]:
+                      - generic [ref=f5e376]: Aa
+                      - generic [ref=f5e377]: Section number
+                      - generic [ref=f5e378]: body
+                      - generic [ref=f5e379]:
+                        - generic [ref=f5e380]: Inherited
+                        - button "Reset" [ref=f5e381]
+                    - generic [ref=f5e382]:
+                      - generic [ref=f5e384]:
+                        - generic [ref=f5e385]: Font
+                        - combobox [ref=f5e387]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e388]: Inherited — Inter
+                      - generic [ref=f5e390]:
+                        - generic [ref=f5e391]: Weight
+                        - combobox [ref=f5e393]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e395]:
+                        - generic [ref=f5e396]: Uppercase
+                        - generic [ref=f5e398]:
+                          - button "Default" [ref=f5e399]
+                          - button "Uppercase" [ref=f5e400]
+                          - button "None" [ref=f5e401]
+                      - generic [ref=f5e403]:
+                        - generic [ref=f5e404]: Size
+                        - textbox "Inherit" [ref=f5e406]
+                        - paragraph [ref=f5e407]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e409]:
+                        - generic [ref=f5e410]: Spacing
+                        - textbox "Inherit" [ref=f5e412]
+                        - paragraph [ref=f5e413]: e.g. 0.05em
+                      - generic [ref=f5e415]:
+                        - generic [ref=f5e416]: Line height
+                        - textbox "Inherit" [ref=f5e418]
+                        - paragraph [ref=f5e419]: e.g. 1.15
+                  - generic [ref=f5e420]:
+                    - generic [ref=f5e421]:
+                      - generic [ref=f5e422]: Aa
+                      - generic [ref=f5e423]: Section label
+                      - generic [ref=f5e424]: body
+                      - generic [ref=f5e425]:
+                        - generic [ref=f5e426]: Inherited
+                        - button "Reset" [ref=f5e427]
+                    - generic [ref=f5e428]:
+                      - generic [ref=f5e430]:
+                        - generic [ref=f5e431]: Font
+                        - combobox [ref=f5e433]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e434]: Inherited — Inter
+                      - generic [ref=f5e436]:
+                        - generic [ref=f5e437]: Weight
+                        - combobox [ref=f5e439]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e441]:
+                        - generic [ref=f5e442]: Uppercase
+                        - generic [ref=f5e444]:
+                          - button "Default" [ref=f5e445]
+                          - button "Uppercase" [ref=f5e446]
+                          - button "None" [ref=f5e447]
+                      - generic [ref=f5e449]:
+                        - generic [ref=f5e450]: Size
+                        - textbox "Inherit" [ref=f5e452]
+                        - paragraph [ref=f5e453]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e455]:
+                        - generic [ref=f5e456]: Spacing
+                        - textbox "Inherit" [ref=f5e458]
+                        - paragraph [ref=f5e459]: e.g. 0.05em
+                      - generic [ref=f5e461]:
+                        - generic [ref=f5e462]: Line height
+                        - textbox "Inherit" [ref=f5e464]
+                        - paragraph [ref=f5e465]: e.g. 1.15
+                  - generic [ref=f5e466]:
+                    - generic [ref=f5e467]:
+                      - generic [ref=f5e468]: Aa
+                      - generic [ref=f5e469]: Heading
+                      - generic [ref=f5e470]: heading
+                      - generic [ref=f5e471]:
+                        - generic [ref=f5e472]: Inherited
+                        - button "Reset" [ref=f5e473]
+                    - generic [ref=f5e474]:
+                      - generic [ref=f5e476]:
+                        - generic [ref=f5e477]: Font
+                        - combobox [ref=f5e479]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e480]: Inherited — Space Grotesk
+                      - generic [ref=f5e482]:
+                        - generic [ref=f5e483]: Weight
+                        - combobox [ref=f5e485]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e487]:
+                        - generic [ref=f5e488]: Align
+                        - combobox [ref=f5e490]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e492]:
+                        - generic [ref=f5e493]: Spacing
+                        - textbox "Inherit" [ref=f5e495]
+                        - paragraph [ref=f5e496]: e.g. 0.05em
+                      - generic [ref=f5e498]:
+                        - generic [ref=f5e499]: Line height
+                        - textbox "Inherit" [ref=f5e501]
+                        - paragraph [ref=f5e502]: e.g. 1.15
+                    - generic [ref=f5e503]:
+                      - generic [ref=f5e504]: Uppercase
+                      - generic [ref=f5e505]:
+                        - button "Default" [ref=f5e506]
+                        - button "Uppercase" [ref=f5e507]
+                        - button "None" [ref=f5e508]
+                  - generic [ref=f5e509]:
+                    - generic [ref=f5e510]:
+                      - generic [ref=f5e511]: Aa
+                      - generic [ref=f5e512]: Body
+                      - generic [ref=f5e513]: body
+                      - generic [ref=f5e514]:
+                        - generic [ref=f5e515]: Inherited
+                        - button "Reset" [ref=f5e516]
+                    - generic [ref=f5e517]:
+                      - generic [ref=f5e519]:
+                        - generic [ref=f5e520]: Font
+                        - combobox [ref=f5e522]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e523]: Inherited — Inter
+                      - generic [ref=f5e525]:
+                        - generic [ref=f5e526]: Weight
+                        - combobox [ref=f5e528]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e530]:
+                        - generic [ref=f5e531]: Align
+                        - combobox [ref=f5e533]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e535]:
+                        - generic [ref=f5e536]: Size
+                        - textbox "Inherit" [ref=f5e538]
+                        - paragraph [ref=f5e539]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e541]:
+                        - generic [ref=f5e542]: Spacing
+                        - textbox "Inherit" [ref=f5e544]
+                        - paragraph [ref=f5e545]: e.g. 0.05em
+                      - generic [ref=f5e547]:
+                        - generic [ref=f5e548]: Line height
+                        - textbox "Inherit" [ref=f5e550]
+                        - paragraph [ref=f5e551]: e.g. 1.15
+                    - generic [ref=f5e552]:
+                      - generic [ref=f5e553]: Uppercase
+                      - generic [ref=f5e554]:
+                        - button "Default" [ref=f5e555]
+                        - button "Uppercase" [ref=f5e556]
+                        - button "None" [ref=f5e557]
+                  - generic [ref=f5e558]:
+                    - generic [ref=f5e559]:
+                      - generic [ref=f5e560]: Aa
+                      - generic [ref=f5e561]: Field label
+                      - generic [ref=f5e562]: body
+                      - generic [ref=f5e563]:
+                        - generic [ref=f5e564]: Inherited
+                        - button "Reset" [ref=f5e565]
+                    - generic [ref=f5e566]:
+                      - generic [ref=f5e568]:
+                        - generic [ref=f5e569]: Font
+                        - combobox [ref=f5e571]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e572]: Inherited — Inter
+                      - generic [ref=f5e574]:
+                        - generic [ref=f5e575]: Weight
+                        - combobox [ref=f5e577]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e579]:
+                        - generic [ref=f5e580]: Uppercase
+                        - generic [ref=f5e582]:
+                          - button "Default" [ref=f5e583]
+                          - button "Uppercase" [ref=f5e584]
+                          - button "None" [ref=f5e585]
+                      - generic [ref=f5e587]:
+                        - generic [ref=f5e588]: Size
+                        - textbox "Inherit" [ref=f5e590]
+                        - paragraph [ref=f5e591]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e593]:
+                        - generic [ref=f5e594]: Spacing
+                        - textbox "Inherit" [ref=f5e596]
+                        - paragraph [ref=f5e597]: e.g. 0.05em
+                      - generic [ref=f5e599]:
+                        - generic [ref=f5e600]: Line height
+                        - textbox "Inherit" [ref=f5e602]
+                        - paragraph [ref=f5e603]: e.g. 1.15
+                  - generic [ref=f5e604]:
+                    - generic [ref=f5e605]:
+                      - generic [ref=f5e606]: Aa
+                      - generic [ref=f5e607]: Field value
+                      - generic [ref=f5e608]: heading
+                      - generic [ref=f5e609]:
+                        - generic [ref=f5e610]: Inherited
+                        - button "Reset" [ref=f5e611]
+                    - generic [ref=f5e612]:
+                      - generic [ref=f5e614]:
+                        - generic [ref=f5e615]: Font
+                        - combobox [ref=f5e617]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e618]: Inherited — Space Grotesk
+                      - generic [ref=f5e620]:
+                        - generic [ref=f5e621]: Weight
+                        - combobox [ref=f5e623]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e625]:
+                        - generic [ref=f5e626]: Uppercase
+                        - generic [ref=f5e628]:
+                          - button "Default" [ref=f5e629]
+                          - button "Uppercase" [ref=f5e630]
+                          - button "None" [ref=f5e631]
+                      - generic [ref=f5e633]:
+                        - generic [ref=f5e634]: Size
+                        - textbox "Inherit" [ref=f5e636]
+                        - paragraph [ref=f5e637]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e639]:
+                        - generic [ref=f5e640]: Spacing
+                        - textbox "Inherit" [ref=f5e642]
+                        - paragraph [ref=f5e643]: e.g. 0.05em
+                      - generic [ref=f5e645]:
+                        - generic [ref=f5e646]: Line height
+                        - textbox "Inherit" [ref=f5e648]
+                        - paragraph [ref=f5e649]: e.g. 1.15
+                  - generic [ref=f5e650]:
+                    - generic [ref=f5e651]:
+                      - generic [ref=f5e652]: Aa
+                      - generic [ref=f5e653]: Social labels
+                      - generic [ref=f5e654]: body
+                      - generic [ref=f5e655]:
+                        - generic [ref=f5e656]: Inherited
+                        - button "Reset" [ref=f5e657]
+                    - generic [ref=f5e658]:
+                      - generic [ref=f5e660]:
+                        - generic [ref=f5e661]: Font
+                        - combobox [ref=f5e663]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e664]: Inherited — Inter
+                      - generic [ref=f5e666]:
+                        - generic [ref=f5e667]: Weight
+                        - combobox [ref=f5e669]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e671]:
+                        - generic [ref=f5e672]: Uppercase
+                        - generic [ref=f5e674]:
+                          - button "Default" [ref=f5e675]
+                          - button "Uppercase" [ref=f5e676]
+                          - button "None" [ref=f5e677]
+                      - generic [ref=f5e679]:
+                        - generic [ref=f5e680]: Size
+                        - textbox "Inherit" [ref=f5e682]
+                        - paragraph [ref=f5e683]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e685]:
+                        - generic [ref=f5e686]: Spacing
+                        - textbox "Inherit" [ref=f5e688]
+                        - paragraph [ref=f5e689]: e.g. 0.05em
+                      - generic [ref=f5e691]:
+                        - generic [ref=f5e692]: Line height
+                        - textbox "Inherit" [ref=f5e694]
+                        - paragraph [ref=f5e695]: e.g. 1.15
+                  - generic [ref=f5e696]:
+                    - generic [ref=f5e697]:
+                      - generic [ref=f5e698]: Aa
+                      - generic [ref=f5e699]: Success title
+                      - generic [ref=f5e700]: heading
+                      - generic [ref=f5e701]:
+                        - generic [ref=f5e702]: Inherited
+                        - button "Reset" [ref=f5e703]
+                    - generic [ref=f5e704]:
+                      - generic [ref=f5e706]:
+                        - generic [ref=f5e707]: Font
+                        - combobox [ref=f5e709]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e710]: Inherited — Space Grotesk
+                      - generic [ref=f5e712]:
+                        - generic [ref=f5e713]: Weight
+                        - combobox [ref=f5e715]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e717]:
+                        - generic [ref=f5e718]: Uppercase
+                        - generic [ref=f5e720]:
+                          - button "Default" [ref=f5e721]
+                          - button "Uppercase" [ref=f5e722]
+                          - button "None" [ref=f5e723]
+                      - generic [ref=f5e725]:
+                        - generic [ref=f5e726]: Size
+                        - textbox "Inherit" [ref=f5e728]
+                        - paragraph [ref=f5e729]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e731]:
+                        - generic [ref=f5e732]: Spacing
+                        - textbox "Inherit" [ref=f5e734]
+                        - paragraph [ref=f5e735]: e.g. 0.05em
+                      - generic [ref=f5e737]:
+                        - generic [ref=f5e738]: Line height
+                        - textbox "Inherit" [ref=f5e740]
+                        - paragraph [ref=f5e741]: e.g. 1.15
+                  - generic [ref=f5e742]:
+                    - generic [ref=f5e743]:
+                      - generic [ref=f5e744]: Aa
+                      - generic [ref=f5e745]: Success body
+                      - generic [ref=f5e746]: body
+                      - generic [ref=f5e747]:
+                        - generic [ref=f5e748]: Inherited
+                        - button "Reset" [ref=f5e749]
+                    - generic [ref=f5e750]:
+                      - generic [ref=f5e752]:
+                        - generic [ref=f5e753]: Font
+                        - combobox [ref=f5e755]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e756]: Inherited — Inter
+                      - generic [ref=f5e758]:
+                        - generic [ref=f5e759]: Weight
+                        - combobox [ref=f5e761]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e763]:
+                        - generic [ref=f5e764]: Align
+                        - combobox [ref=f5e766]:
+                          - option "Inherit" [selected]
+                          - option "Left"
+                          - option "Center"
+                          - option "Right"
+                          - option "Justify"
+                      - generic [ref=f5e768]:
+                        - generic [ref=f5e769]: Size
+                        - textbox "Inherit" [ref=f5e771]
+                        - paragraph [ref=f5e772]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e774]:
+                        - generic [ref=f5e775]: Spacing
+                        - textbox "Inherit" [ref=f5e777]
+                        - paragraph [ref=f5e778]: e.g. 0.05em
+                      - generic [ref=f5e780]:
+                        - generic [ref=f5e781]: Line height
+                        - textbox "Inherit" [ref=f5e783]
+                        - paragraph [ref=f5e784]: e.g. 1.15
+                    - generic [ref=f5e785]:
+                      - generic [ref=f5e786]: Uppercase
+                      - generic [ref=f5e787]:
+                        - button "Default" [ref=f5e788]
+                        - button "Uppercase" [ref=f5e789]
+                        - button "None" [ref=f5e790]
+                  - generic [ref=f5e791]:
+                    - generic [ref=f5e792]:
+                      - generic [ref=f5e793]: Aa
+                      - generic [ref=f5e794]: Button label
+                      - generic [ref=f5e795]: body
+                      - generic [ref=f5e796]:
+                        - generic [ref=f5e797]: Inherited
+                        - button "Reset" [ref=f5e798]
+                    - generic [ref=f5e799]:
+                      - generic [ref=f5e801]:
+                        - generic [ref=f5e802]: Font
+                        - combobox [ref=f5e804]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e805]: Inherited — Inter
+                      - generic [ref=f5e807]:
+                        - generic [ref=f5e808]: Weight
+                        - combobox [ref=f5e810]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e812]:
+                        - generic [ref=f5e813]: Uppercase
+                        - generic [ref=f5e815]:
+                          - button "Default" [ref=f5e816]
+                          - button "Uppercase" [ref=f5e817]
+                          - button "None" [ref=f5e818]
+                      - generic [ref=f5e820]:
+                        - generic [ref=f5e821]: Size
+                        - textbox "Inherit" [ref=f5e823]
+                        - paragraph [ref=f5e824]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e826]:
+                        - generic [ref=f5e827]: Spacing
+                        - textbox "Inherit" [ref=f5e829]
+                        - paragraph [ref=f5e830]: e.g. 0.05em
+                      - generic [ref=f5e832]:
+                        - generic [ref=f5e833]: Line height
+                        - textbox "Inherit" [ref=f5e835]
+                        - paragraph [ref=f5e836]: e.g. 1.15
+                  - generic [ref=f5e837]:
+                    - generic [ref=f5e838]:
+                      - generic [ref=f5e839]: Aa
+                      - generic [ref=f5e840]: Error text
+                      - generic [ref=f5e841]: body
+                      - generic [ref=f5e842]:
+                        - generic [ref=f5e843]: Inherited
+                        - button "Reset" [ref=f5e844]
+                    - generic [ref=f5e845]:
+                      - generic [ref=f5e847]:
+                        - generic [ref=f5e848]: Font
+                        - combobox [ref=f5e850]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e851]: Inherited — Inter
+                      - generic [ref=f5e853]:
+                        - generic [ref=f5e854]: Weight
+                        - combobox [ref=f5e856]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e858]:
+                        - generic [ref=f5e859]: Uppercase
+                        - generic [ref=f5e861]:
+                          - button "Default" [ref=f5e862]
+                          - button "Uppercase" [ref=f5e863]
+                          - button "None" [ref=f5e864]
+                      - generic [ref=f5e866]:
+                        - generic [ref=f5e867]: Size
+                        - textbox "Inherit" [ref=f5e869]
+                        - paragraph [ref=f5e870]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e872]:
+                        - generic [ref=f5e873]: Spacing
+                        - textbox "Inherit" [ref=f5e875]
+                        - paragraph [ref=f5e876]: e.g. 0.05em
+                      - generic [ref=f5e878]:
+                        - generic [ref=f5e879]: Line height
+                        - textbox "Inherit" [ref=f5e881]
+                        - paragraph [ref=f5e882]: e.g. 1.15
+              - generic [ref=f5e883]:
+                - heading "Footer" [level=3] [ref=f5e885]
+                - generic [ref=f5e886]:
+                  - generic [ref=f5e887]:
+                    - generic [ref=f5e888]:
+                      - generic [ref=f5e889]: Aa
+                      - generic [ref=f5e890]: Name
+                      - generic [ref=f5e891]: heading
+                      - generic [ref=f5e892]:
+                        - generic [ref=f5e893]: Inherited
+                        - button "Reset" [ref=f5e894]
+                    - generic [ref=f5e895]:
+                      - generic [ref=f5e897]:
+                        - generic [ref=f5e898]: Font
+                        - combobox [ref=f5e900]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e901]: Inherited — Space Grotesk
+                      - generic [ref=f5e903]:
+                        - generic [ref=f5e904]: Weight
+                        - combobox [ref=f5e906]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e908]:
+                        - generic [ref=f5e909]: Uppercase
+                        - generic [ref=f5e911]:
+                          - button "Default" [ref=f5e912]
+                          - button "Uppercase" [ref=f5e913]
+                          - button "None" [ref=f5e914]
+                      - generic [ref=f5e916]:
+                        - generic [ref=f5e917]: Size
+                        - textbox "Inherit" [ref=f5e919]
+                        - paragraph [ref=f5e920]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e922]:
+                        - generic [ref=f5e923]: Spacing
+                        - textbox "Inherit" [ref=f5e925]
+                        - paragraph [ref=f5e926]: e.g. 0.05em
+                      - generic [ref=f5e928]:
+                        - generic [ref=f5e929]: Line height
+                        - textbox "Inherit" [ref=f5e931]
+                        - paragraph [ref=f5e932]: e.g. 1.15
+                  - generic [ref=f5e933]:
+                    - generic [ref=f5e934]:
+                      - generic [ref=f5e935]: Aa
+                      - generic [ref=f5e936]: Tagline
+                      - generic [ref=f5e937]: body
+                      - generic [ref=f5e938]:
+                        - generic [ref=f5e939]: Inherited
+                        - button "Reset" [ref=f5e940]
+                    - generic [ref=f5e941]:
+                      - generic [ref=f5e943]:
+                        - generic [ref=f5e944]: Font
+                        - combobox [ref=f5e946]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e947]: Inherited — Inter
+                      - generic [ref=f5e949]:
+                        - generic [ref=f5e950]: Weight
+                        - combobox [ref=f5e952]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e954]:
+                        - generic [ref=f5e955]: Uppercase
+                        - generic [ref=f5e957]:
+                          - button "Default" [ref=f5e958]
+                          - button "Uppercase" [ref=f5e959]
+                          - button "None" [ref=f5e960]
+                      - generic [ref=f5e962]:
+                        - generic [ref=f5e963]: Size
+                        - textbox "Inherit" [ref=f5e965]
+                        - paragraph [ref=f5e966]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e968]:
+                        - generic [ref=f5e969]: Spacing
+                        - textbox "Inherit" [ref=f5e971]
+                        - paragraph [ref=f5e972]: e.g. 0.05em
+                      - generic [ref=f5e974]:
+                        - generic [ref=f5e975]: Line height
+                        - textbox "Inherit" [ref=f5e977]
+                        - paragraph [ref=f5e978]: e.g. 1.15
+                  - generic [ref=f5e979]:
+                    - generic [ref=f5e980]:
+                      - generic [ref=f5e981]: Aa
+                      - generic [ref=f5e982]: Copyright
+                      - generic [ref=f5e983]: body
+                      - generic [ref=f5e984]:
+                        - generic [ref=f5e985]: Inherited
+                        - button "Reset" [ref=f5e986]
+                    - generic [ref=f5e987]:
+                      - generic [ref=f5e989]:
+                        - generic [ref=f5e990]: Font
+                        - combobox [ref=f5e992]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e993]: Inherited — Inter
+                      - generic [ref=f5e995]:
+                        - generic [ref=f5e996]: Weight
+                        - combobox [ref=f5e998]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e1000]:
+                        - generic [ref=f5e1001]: Uppercase
+                        - generic [ref=f5e1003]:
+                          - button "Default" [ref=f5e1004]
+                          - button "Uppercase" [ref=f5e1005]
+                          - button "None" [ref=f5e1006]
+                      - generic [ref=f5e1008]:
+                        - generic [ref=f5e1009]: Size
+                        - textbox "Inherit" [ref=f5e1011]
+                        - paragraph [ref=f5e1012]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e1014]:
+                        - generic [ref=f5e1015]: Spacing
+                        - textbox "Inherit" [ref=f5e1017]
+                        - paragraph [ref=f5e1018]: e.g. 0.05em
+                      - generic [ref=f5e1020]:
+                        - generic [ref=f5e1021]: Line height
+                        - textbox "Inherit" [ref=f5e1023]
+                        - paragraph [ref=f5e1024]: e.g. 1.15
+                  - generic [ref=f5e1025]:
+                    - generic [ref=f5e1026]:
+                      - generic [ref=f5e1027]: Aa
+                      - generic [ref=f5e1028]: Nav link
+                      - generic [ref=f5e1029]: body
+                      - generic [ref=f5e1030]:
+                        - generic [ref=f5e1031]: Inherited
+                        - button "Reset" [ref=f5e1032]
+                    - generic [ref=f5e1033]:
+                      - generic [ref=f5e1035]:
+                        - generic [ref=f5e1036]: Font
+                        - combobox [ref=f5e1038]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e1039]: Inherited — Inter
+                      - generic [ref=f5e1041]:
+                        - generic [ref=f5e1042]: Weight
+                        - combobox [ref=f5e1044]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e1046]:
+                        - generic [ref=f5e1047]: Uppercase
+                        - generic [ref=f5e1049]:
+                          - button "Default" [ref=f5e1050]
+                          - button "Uppercase" [ref=f5e1051]
+                          - button "None" [ref=f5e1052]
+                      - generic [ref=f5e1054]:
+                        - generic [ref=f5e1055]: Size
+                        - textbox "Inherit" [ref=f5e1057]
+                        - paragraph [ref=f5e1058]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e1060]:
+                        - generic [ref=f5e1061]: Spacing
+                        - textbox "Inherit" [ref=f5e1063]
+                        - paragraph [ref=f5e1064]: e.g. 0.05em
+                      - generic [ref=f5e1066]:
+                        - generic [ref=f5e1067]: Line height
+                        - textbox "Inherit" [ref=f5e1069]
+                        - paragraph [ref=f5e1070]: e.g. 1.15
+              - generic [ref=f5e1071]:
+                - heading "Navigation" [level=3] [ref=f5e1073]
+                - generic [ref=f5e1074]:
+                  - generic [ref=f5e1075]:
+                    - generic [ref=f5e1076]:
+                      - generic [ref=f5e1077]: Aa
+                      - generic [ref=f5e1078]: Brand / logo text
+                      - generic [ref=f5e1079]: heading
+                      - generic [ref=f5e1080]:
+                        - generic [ref=f5e1081]: Inherited
+                        - button "Reset" [ref=f5e1082]
+                    - generic [ref=f5e1083]:
+                      - generic [ref=f5e1085]:
+                        - generic [ref=f5e1086]: Font
+                        - combobox [ref=f5e1088]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e1089]: Inherited — Space Grotesk
+                      - generic [ref=f5e1091]:
+                        - generic [ref=f5e1092]: Weight
+                        - combobox [ref=f5e1094]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e1096]:
+                        - generic [ref=f5e1097]: Uppercase
+                        - generic [ref=f5e1099]:
+                          - button "Default" [ref=f5e1100]
+                          - button "Uppercase" [ref=f5e1101]
+                          - button "None" [ref=f5e1102]
+                      - generic [ref=f5e1104]:
+                        - generic [ref=f5e1105]: Size
+                        - textbox "Inherit" [ref=f5e1107]
+                        - paragraph [ref=f5e1108]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e1110]:
+                        - generic [ref=f5e1111]: Spacing
+                        - textbox "Inherit" [ref=f5e1113]
+                        - paragraph [ref=f5e1114]: e.g. 0.05em
+                      - generic [ref=f5e1116]:
+                        - generic [ref=f5e1117]: Line height
+                        - textbox "Inherit" [ref=f5e1119]
+                        - paragraph [ref=f5e1120]: e.g. 1.15
+                  - generic [ref=f5e1121]:
+                    - generic [ref=f5e1122]:
+                      - generic [ref=f5e1123]: Aa
+                      - generic [ref=f5e1124]: Nav link
+                      - generic [ref=f5e1125]: body
+                      - generic [ref=f5e1126]:
+                        - generic [ref=f5e1127]: Inherited
+                        - button "Reset" [ref=f5e1128]
+                    - generic [ref=f5e1129]:
+                      - generic [ref=f5e1131]:
+                        - generic [ref=f5e1132]: Font
+                        - combobox [ref=f5e1134]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e1135]: Inherited — Inter
+                      - generic [ref=f5e1137]:
+                        - generic [ref=f5e1138]: Weight
+                        - combobox [ref=f5e1140]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e1142]:
+                        - generic [ref=f5e1143]: Uppercase
+                        - generic [ref=f5e1145]:
+                          - button "Default" [ref=f5e1146]
+                          - button "Uppercase" [ref=f5e1147]
+                          - button "None" [ref=f5e1148]
+                      - generic [ref=f5e1150]:
+                        - generic [ref=f5e1151]: Size
+                        - textbox "Inherit" [ref=f5e1153]
+                        - paragraph [ref=f5e1154]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e1156]:
+                        - generic [ref=f5e1157]: Spacing
+                        - textbox "Inherit" [ref=f5e1159]
+                        - paragraph [ref=f5e1160]: e.g. 0.05em
+                      - generic [ref=f5e1162]:
+                        - generic [ref=f5e1163]: Line height
+                        - textbox "Inherit" [ref=f5e1165]
+                        - paragraph [ref=f5e1166]: e.g. 1.15
+                  - generic [ref=f5e1167]:
+                    - generic [ref=f5e1168]:
+                      - generic [ref=f5e1169]: Aa
+                      - generic [ref=f5e1170]: CTA button
+                      - generic [ref=f5e1171]: body
+                      - generic [ref=f5e1172]:
+                        - generic [ref=f5e1173]: Inherited
+                        - button "Reset" [ref=f5e1174]
+                    - generic [ref=f5e1175]:
+                      - generic [ref=f5e1177]:
+                        - generic [ref=f5e1178]: Font
+                        - combobox [ref=f5e1180]:
+                          - option "Inherit" [selected]
+                          - option "Inter"
+                          - option "Space Grotesk"
+                          - option "Archivo"
+                          - option "Sora"
+                          - option "Outfit"
+                          - option "Playfair Display"
+                          - option "Fraunces"
+                          - option "Syne"
+                          - option "Unbounded"
+                          - option "JetBrains Mono"
+                        - paragraph [ref=f5e1181]: Inherited — Inter
+                      - generic [ref=f5e1183]:
+                        - generic [ref=f5e1184]: Weight
+                        - combobox [ref=f5e1186]:
+                          - option "Inherit" [selected]
+                          - option "Light (300)"
+                          - option "Regular (400)"
+                          - option "Medium (500)"
+                          - option "Semibold (600)"
+                          - option "Bold (700)"
+                          - option "Extrabold (800)"
+                          - option "Black (900)"
+                      - generic [ref=f5e1188]:
+                        - generic [ref=f5e1189]: Uppercase
+                        - generic [ref=f5e1191]:
+                          - button "Default" [ref=f5e1192]
+                          - button "Uppercase" [ref=f5e1193]
+                          - button "None" [ref=f5e1194]
+                      - generic [ref=f5e1196]:
+                        - generic [ref=f5e1197]: Size
+                        - textbox "Inherit" [ref=f5e1199]
+                        - paragraph [ref=f5e1200]: e.g. 2rem, clamp(...)
+                      - generic [ref=f5e1202]:
+                        - generic [ref=f5e1203]: Spacing
+                        - textbox "Inherit" [ref=f5e1205]
+                        - paragraph [ref=f5e1206]: e.g. 0.05em
+                      - generic [ref=f5e1208]:
+                        - generic [ref=f5e1209]: Line height
+                        - textbox "Inherit" [ref=f5e1211]
+                        - paragraph [ref=f5e1212]: e.g. 1.15
+        - button "Save typography" [ref=f5e1214]

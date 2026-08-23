@@ -1,0 +1,337 @@
+- generic [active] [ref=f27e1]:
+  - button "Open Next.js Dev Tools" [ref=f27e7] [cursor=pointer]
+  - alert [ref=f27e11]
+  - generic [ref=f27e12]:
+    - complementary [ref=f27e13]:
+      - generic [ref=f27e14]:
+        - generic [ref=f27e15]:
+          - link "Rijul." [ref=f27e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f27e17]: CMS
+        - navigation [ref=f27e18]:
+          - link "01 Dashboard" [ref=f27e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f27e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f27e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f27e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f27e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f27e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f27e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f27e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f27e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f27e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f27e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f27e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f27e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f27e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f27e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f27e34]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f27e35] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f27e36]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f27e37] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f27e38]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f27e39] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f27e40]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f27e41] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f27e42]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f27e43] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f27e44]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f27e45] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f27e46]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f27e47] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f27e48]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f27e49] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f27e50]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f27e51] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f27e52]: "17"
+            - text: Typography
+        - generic [ref=f27e53]:
+          - generic [ref=f27e54]:
+            - generic [ref=f27e55]: Signed in
+            - generic [ref=f27e56]: admin@rijuldhakal.com
+          - generic [ref=f27e57]:
+            - link "View Site" [ref=f27e58] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f27e59]
+    - main [ref=f27e60]:
+      - generic [ref=f27e232]:
+        - generic [ref=f27e233]:
+          - generic [ref=f27e234]:
+            - heading "Edit project" [level=1] [ref=f27e235]
+            - paragraph [ref=f27e236]: Projects appear on the public Work section when published.
+          - generic [ref=f27e237]:
+            - button "Back to projects" [ref=f27e238]
+            - button "Save typography" [ref=f27e239]
+            - button "Save project" [ref=f27e240]
+        - generic [ref=f27e241]:
+          - generic [ref=f27e243]:
+            - generic [ref=f27e244]:
+              - heading "Details" [level=2] [ref=f27e245]
+              - generic [ref=f27e246]:
+                - generic [ref=f27e248]:
+                  - generic [ref=f27e249]:
+                    - generic [ref=f27e250]: Title
+                    - button "Aa" [ref=f27e251]
+                  - textbox "Project name" [ref=f27e253]: SAPTARISHI PLATFORM
+                - generic [ref=f27e254]:
+                  - generic [ref=f27e255]: Slug
+                  - textbox "project-name" [ref=f27e257]: saptarishi-platform
+                  - paragraph [ref=f27e258]: Used in the project URL.
+                - generic [ref=f27e260]:
+                  - generic [ref=f27e261]:
+                    - generic [ref=f27e262]: Category
+                    - button "Aa" [ref=f27e263]
+                  - textbox "Web App" [ref=f27e265]: Full-Stack Web App
+                - generic [ref=f27e266]:
+                  - generic [ref=f27e267]: Display order
+                  - spinbutton [ref=f27e269]: "0"
+                - generic [ref=f27e271]:
+                  - generic [ref=f27e272]:
+                    - generic [ref=f27e273]: Short description
+                    - button "Aa" [ref=f27e274]
+                  - textbox [ref=f27e276]: Full-stack web platform for the Saptarishi business group.
+                  - paragraph [ref=f27e277]: One-liner shown in the Work section card.
+                - generic [ref=f27e279]:
+                  - generic [ref=f27e280]: Full description
+                  - textbox [ref=f27e282]: A full-stack web platform built for the Saptarishi Business Group, covering business operations, internal tools and public-facing experiences.
+                - generic [ref=f27e284]:
+                  - generic [ref=f27e285]:
+                    - generic [ref=f27e286]: Technologies
+                    - button "Aa" [ref=f27e287]
+                  - generic [ref=f27e289]:
+                    - generic [ref=f27e290]:
+                      - textbox "Add a technology and press Enter" [ref=f27e291]
+                      - button "Add" [ref=f27e292]
+                    - generic [ref=f27e293]:
+                      - generic [ref=f27e294]:
+                        - text: React
+                        - button "Remove React" [ref=f27e295]: x
+                      - generic [ref=f27e296]:
+                        - text: .NET
+                        - button "Remove .NET" [ref=f27e297]: x
+                      - generic [ref=f27e298]:
+                        - text: PostgreSQL
+                        - button "Remove PostgreSQL" [ref=f27e299]: x
+            - generic [ref=f27e300]:
+              - heading "Images" [level=2] [ref=f27e301]
+              - generic [ref=f27e302]:
+                - generic [ref=f27e303]:
+                  - generic [ref=f27e304]: Thumbnail
+                  - generic [ref=f27e306]:
+                    - textbox "/uploads/… or https://…" [ref=f27e307]: http://localhost:5261/uploads/general/949ae779ee774316926c92592cfebcfb.png
+                    - button "Pick" [ref=f27e308]
+                  - paragraph [ref=f27e309]: Card image on the Work section.
+                - generic [ref=f27e310]:
+                  - generic [ref=f27e311]: Featured image
+                  - generic [ref=f27e313]:
+                    - textbox "/uploads/… or https://…" [ref=f27e314]: http://localhost:5261/uploads/general/949ae779ee774316926c92592cfebcfb.png
+                    - button "Pick" [ref=f27e315]
+              - generic [ref=f27e316]:
+                - generic [ref=f27e317]:
+                  - generic [ref=f27e318]: Gallery
+                  - button "Add image" [ref=f27e319]
+                - paragraph [ref=f27e320]: No gallery images yet.
+            - generic [ref=f27e321]:
+              - heading "Links" [level=2] [ref=f27e322]
+              - generic [ref=f27e323]:
+                - generic [ref=f27e324]:
+                  - generic [ref=f27e325]: Live URL
+                  - textbox "https://…" [ref=f27e327]
+                - generic [ref=f27e328]:
+                  - generic [ref=f27e329]: GitHub URL
+                  - textbox "https://github.com/…" [ref=f27e331]
+                - generic [ref=f27e332]:
+                  - generic [ref=f27e333]: Figma URL
+                  - textbox "https://figma.com/…" [ref=f27e335]
+                - generic [ref=f27e336]:
+                  - generic [ref=f27e337]: Case study URL
+                  - textbox "https://…" [ref=f27e339]
+            - generic [ref=f27e340]:
+              - heading "Case Study" [level=2] [ref=f27e341]
+              - paragraph [ref=f27e342]: Optional. Empty fields are simply hidden on the public project page.
+              - generic [ref=f27e343]:
+                - generic [ref=f27e344]:
+                  - generic [ref=f27e345]: Year
+                  - textbox "2026" [ref=f27e347]
+                - generic [ref=f27e348]:
+                  - generic [ref=f27e349]: Role
+                  - textbox "Lead Developer" [ref=f27e351]
+                - generic [ref=f27e352]:
+                  - generic [ref=f27e353]: Client
+                  - textbox "Client name" [ref=f27e355]
+              - generic [ref=f27e356]:
+                - generic [ref=f27e357]:
+                  - generic [ref=f27e358]: Problem
+                  - textbox [ref=f27e360]
+                - generic [ref=f27e361]:
+                  - generic [ref=f27e362]: Goal
+                  - textbox [ref=f27e364]
+                - generic [ref=f27e365]:
+                  - generic [ref=f27e366]: My Role / Contribution
+                  - textbox [ref=f27e368]
+                - generic [ref=f27e369]:
+                  - generic [ref=f27e370]: Process
+                  - textbox [ref=f27e372]
+                - generic [ref=f27e373]:
+                  - generic [ref=f27e374]: Key Features
+                  - generic [ref=f27e377]:
+                    - textbox "Add a feature and press Enter" [ref=f27e378]
+                    - button "Add" [ref=f27e379]
+                - generic [ref=f27e380]:
+                  - generic [ref=f27e381]: Challenges
+                  - textbox [ref=f27e383]
+                - generic [ref=f27e384]:
+                  - generic [ref=f27e385]: Solution
+                  - textbox [ref=f27e387]
+                - generic [ref=f27e388]:
+                  - generic [ref=f27e389]: Results
+                  - textbox [ref=f27e391]
+            - generic [ref=f27e393]:
+              - button "Published on the public site" [pressed] [ref=f27e394]
+              - button "Featured" [pressed] [ref=f27e398]
+          - complementary [ref=f27e402]:
+            - generic [ref=f27e403]:
+              - generic [ref=f27e404]:
+                - generic [ref=f27e405]:
+                  - heading "TYPOGRAPHY" [level=3] [ref=f27e406]
+                  - paragraph [ref=f27e407]: Style each text element in the work / projects section.
+                - button "✕" [ref=f27e408]
+              - generic [ref=f27e409]:
+                - button "Section number" [ref=f27e410]
+                - button "Section label" [ref=f27e412]
+                - button "Title" [ref=f27e414]
+                - button "Project card title" [ref=f27e416]
+                - button "Project card category" [ref=f27e418]
+                - button "Project card description" [ref=f27e420]
+                - button "Project card technologies" [ref=f27e422]
+                - button "Project card link" [ref=f27e424]
+              - generic [ref=f27e426]:
+                - generic [ref=f27e427]: Preview
+                - paragraph [ref=f27e429]: Section number
+              - generic [ref=f27e430]:
+                - generic [ref=f27e431]:
+                  - generic [ref=f27e432]: Font Family
+                  - combobox [ref=f27e433]:
+                    - option "Inherit (Inter)" [selected]
+                    - option "Inter"
+                    - option "Space Grotesk"
+                    - option "Archivo"
+                    - option "Sora"
+                    - option "Outfit"
+                    - option "Playfair Display"
+                    - option "Fraunces"
+                    - option "Syne"
+                    - option "Unbounded"
+                    - option "JetBrains Mono"
+                - generic [ref=f27e434]:
+                  - generic [ref=f27e435]: Font Weight
+                  - combobox [ref=f27e436]:
+                    - option "Inherit (400)" [selected]
+                    - option "Light (300)"
+                    - option "Regular (400)"
+                    - option "Medium (500)"
+                    - option "Semibold (600)"
+                    - option "Bold (700)"
+                    - option "Extrabold (800)"
+                    - option "Black (900)"
+                - generic [ref=f27e437]:
+                  - generic [ref=f27e438]:
+                    - generic [ref=f27e439]: Font Size
+                    - combobox [ref=f27e440]:
+                      - option "Inherit" [selected]
+                      - option "XS (0.75rem)"
+                      - option "Small (0.875rem)"
+                      - option "Base (1rem)"
+                      - option "Large (1.125rem)"
+                      - option "XL (1.25rem)"
+                      - option "2XL (1.5rem)"
+                      - option "3XL (1.875rem)"
+                      - option "4XL (2.25rem)"
+                      - option "5XL (3rem)"
+                  - generic [ref=f27e441]:
+                    - generic [ref=f27e442]: Line Height
+                    - combobox [ref=f27e443]:
+                      - option "Inherit" [selected]
+                      - option "Tight (1.0)"
+                      - option "Snug (1.15)"
+                      - option "Compact (1.25)"
+                      - option "Medium (1.4)"
+                      - option "Normal (1.5)"
+                      - option "Relaxed (1.75)"
+                - generic [ref=f27e444]:
+                  - generic [ref=f27e445]:
+                    - generic [ref=f27e446]: Letter Spacing
+                    - combobox [ref=f27e447]:
+                      - option "Inherit" [selected]
+                      - option "Tighter (-0.05em)"
+                      - option "Tight (-0.025em)"
+                      - option "Normal (0)"
+                      - option "Wide (0.05em)"
+                      - option "Wider (0.1em)"
+                      - option "Widest (0.2em)"
+                  - generic [ref=f27e448]:
+                    - generic [ref=f27e449]: Text Transform
+                    - combobox [ref=f27e450]:
+                      - option "Inherit" [selected]
+                      - option "None"
+                      - option "Uppercase"
+                      - option "Lowercase"
+                      - option "Capitalize"
+                - generic [ref=f27e451]:
+                  - generic [ref=f27e452]: Text Color
+                  - combobox [ref=f27e453]:
+                    - option "● Inherit" [selected]
+                    - option "● Electric Lime"
+                    - option "● White"
+                    - option "● Muted Gray"
+                    - option "● Accent Blue"
+                - generic [ref=f27e454]:
+                  - generic [ref=f27e455]: Text Align
+                  - generic [ref=f27e456]:
+                    - button "≡ Left" [ref=f27e457]:
+                      - generic [ref=f27e458]: ≡
+                      - generic [ref=f27e459]: Left
+                    - button "≂ Center" [ref=f27e460]:
+                      - generic [ref=f27e461]: ≂
+                      - generic [ref=f27e462]: Center
+                    - button "≡ Right" [ref=f27e463]:
+                      - generic [ref=f27e464]: ≡
+                      - generic [ref=f27e465]: Right
+                - button "↺ Reset to inherit" [ref=f27e466]:
+                  - generic [ref=f27e467]: ↺
+                  - generic [ref=f27e468]: Reset to inherit
+                - generic [ref=f27e469]:
+                  - generic [ref=f27e470]: ⓘ
+                  - generic [ref=f27e471]: Inherit means no override. The text will use the default typography from your theme.

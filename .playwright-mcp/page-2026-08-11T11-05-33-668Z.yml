@@ -1,0 +1,22 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - paragraph [ref=f3e5]: Rijul.
+      - paragraph [ref=f3e6]: Portfolio CMS — Sign in
+    - generic [ref=f3e7]:
+      - generic [ref=f3e8]:
+        - generic [ref=f3e9]: Email
+        - textbox "admin@rijuldhakal.com" [ref=f3e11]
+      - generic [ref=f3e12]:
+        - generic [ref=f3e13]: Password
+        - textbox "••••••••" [ref=f3e15]: Admin@123!
+      - button "Sign in" [ref=f3e16]
+    - paragraph [ref=f3e17]: Access is restricted to authorized administrators.
+  - button "Open Next.js Dev Tools" [ref=f3e23] [cursor=pointer]:
+    - generic [ref=f3e26]:
+      - text: Compiling
+      - generic [ref=f3e27]:
+        - generic [ref=f3e28]: .
+        - generic [ref=f3e29]: .
+        - generic [ref=f3e30]: .
+  - alert [ref=f3e31]

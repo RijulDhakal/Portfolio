@@ -1,0 +1,190 @@
+- generic [active] [ref=f4e1]:
+  - button "Open Next.js Dev Tools" [ref=f4e23] [cursor=pointer]
+  - alert [ref=f4e27]
+  - generic [ref=f4e28]:
+    - complementary [ref=f4e29]:
+      - generic [ref=f4e30]:
+        - generic [ref=f4e31]:
+          - link "Rijul." [ref=f4e32] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f4e33]: CMS
+        - navigation [ref=f4e34]:
+          - link "01 Dashboard" [ref=f4e35] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f4e36]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f4e37] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f4e38]: "02"
+            - text: Hero
+          - link "03 About" [ref=f4e39] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f4e40]: "03"
+            - text: About
+          - link "04 Skills" [ref=f4e41] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f4e42]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f4e43] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f4e44]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f4e45] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f4e46]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f4e47] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f4e48]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f4e49] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f4e50]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f4e51] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f4e52]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f4e53] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f4e54]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f4e55] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f4e56]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f4e57] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f4e58]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f4e59] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f4e60]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f4e61] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f4e62]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f4e63] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f4e64]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f4e65] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f4e66]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f4e67] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f4e68]: "17"
+            - text: Typography
+        - generic [ref=f4e69]:
+          - generic [ref=f4e70]:
+            - generic [ref=f4e71]: Signed in
+            - generic [ref=f4e72]: admin@rijuldhakal.com
+          - generic [ref=f4e73]:
+            - link "View Site" [ref=f4e74] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f4e75]
+    - main [ref=f4e76]:
+      - generic [ref=f4e78]:
+        - generic [ref=f4e79]:
+          - generic [ref=f4e80]:
+            - heading "Dashboard" [level=1] [ref=f4e81]
+            - paragraph [ref=f4e82]: Overview of your portfolio content, recent activity, and site status.
+          - generic [ref=f4e83]:
+            - link "View site" [ref=f4e84] [cursor=pointer]:
+              - /url: /
+            - link "New project" [ref=f4e88] [cursor=pointer]:
+              - /url: /admin/projects/new
+        - generic [ref=f4e92]:
+          - link "2 Projects" [ref=f4e93] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f4e94]: "2"
+            - generic [ref=f4e95]: Projects
+          - link "2 Published" [ref=f4e96] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f4e97]: "2"
+            - generic [ref=f4e98]: Published
+          - link "19 Skills" [ref=f4e99] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f4e100]: "19"
+            - generic [ref=f4e101]: Skills
+          - link "4 Services" [ref=f4e102] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f4e103]: "4"
+            - generic [ref=f4e104]: Services
+          - link "0 Unread messages" [ref=f4e105] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f4e106]: "0"
+            - generic [ref=f4e107]: Unread messages
+          - link "6 Media files" [ref=f4e108] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f4e109]: "6"
+            - generic [ref=f4e110]: Media files
+        - generic [ref=f4e111]:
+          - generic [ref=f4e112]:
+            - generic [ref=f4e113]:
+              - generic [ref=f4e114]:
+                - heading "Recent projects" [level=2] [ref=f4e115]
+                - link "View all" [ref=f4e116] [cursor=pointer]:
+                  - /url: /admin/projects
+              - list [ref=f4e120]:
+                - listitem [ref=f4e121]:
+                  - img "SAPTARISHI PLATFORM" [ref=f4e122]
+                  - generic [ref=f4e123]:
+                    - paragraph [ref=f4e124]: SAPTARISHI PLATFORM
+                    - paragraph [ref=f4e125]: Full-Stack Web App
+                  - generic [ref=f4e126]: Live
+                - listitem [ref=f4e127]:
+                  - img "DIGITAL EXHIBITION" [ref=f4e128]
+                  - generic [ref=f4e129]:
+                    - paragraph [ref=f4e130]: DIGITAL EXHIBITION
+                    - paragraph [ref=f4e131]: 3D Experience
+                  - generic [ref=f4e132]: Live
+            - generic [ref=f4e133]:
+              - generic [ref=f4e134]:
+                - heading "Recent messages" [level=2] [ref=f4e135]
+                - link "View all" [ref=f4e136] [cursor=pointer]:
+                  - /url: /admin/messages
+              - list [ref=f4e140]:
+                - listitem [ref=f4e141]:
+                  - generic [ref=f4e142]:
+                    - paragraph [ref=f4e144]: mission dhakal
+                    - generic [ref=f4e145]: 09/08/2026
+                  - paragraph [ref=f4e146]: can we talk
+                - listitem [ref=f4e147]:
+                  - generic [ref=f4e148]:
+                    - paragraph [ref=f4e150]: Test Visitor
+                    - generic [ref=f4e151]: 09/08/2026
+                  - paragraph [ref=f4e152]: Hello, I would like to discuss a project.
+          - generic [ref=f4e153]:
+            - generic [ref=f4e154]:
+              - heading "Quick actions" [level=2] [ref=f4e156]
+              - generic [ref=f4e157]:
+                - link "New project" [ref=f4e158] [cursor=pointer]:
+                  - /url: /admin/projects/new
+                - link "Upload media" [ref=f4e166] [cursor=pointer]:
+                  - /url: /admin/media
+                - link "Check messages" [ref=f4e174] [cursor=pointer]:
+                  - /url: /admin/messages
+                - link "Edit hero" [ref=f4e182] [cursor=pointer]:
+                  - /url: /admin/hero
+                - link "Typography" [ref=f4e189] [cursor=pointer]:
+                  - /url: /admin/typography
+                - link "Settings" [ref=f4e197] [cursor=pointer]:
+                  - /url: /admin/settings
+            - generic [ref=f4e205]:
+              - heading "Site status" [level=2] [ref=f4e207]
+              - generic [ref=f4e208]:
+                - generic [ref=f4e209]:
+                  - generic [ref=f4e210]: API connection
+                  - generic [ref=f4e212]: Connected
+                - generic [ref=f4e213]:
+                  - generic [ref=f4e214]: Published projects
+                  - generic [ref=f4e216]: 2 of 2
+                - generic [ref=f4e217]:
+                  - generic [ref=f4e218]: Unread messages
+                  - generic [ref=f4e220]: "0"
+                - generic [ref=f4e221]:
+                  - generic [ref=f4e222]: Media files
+                  - generic [ref=f4e224]: "6"

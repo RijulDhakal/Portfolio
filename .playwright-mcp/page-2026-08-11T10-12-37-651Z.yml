@@ -1,0 +1,340 @@
+- generic [active] [ref=f8e1]:
+  - button "Open Next.js Dev Tools" [ref=f8e7] [cursor=pointer]:
+    - generic [ref=f8e10]:
+      - text: Compiling
+      - generic [ref=f8e11]:
+        - generic [ref=f8e12]: .
+        - generic [ref=f8e13]: .
+        - generic [ref=f8e14]: .
+  - alert [ref=f8e15]
+  - generic [ref=f8e16]:
+    - complementary [ref=f8e17]:
+      - generic [ref=f8e18]:
+        - generic [ref=f8e19]:
+          - link "Rijul." [ref=f8e20] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f8e21]: CMS
+        - navigation [ref=f8e22]:
+          - link "01 Dashboard" [ref=f8e23] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f8e24]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f8e25] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f8e26]: "02"
+            - text: Hero
+          - link "03 About" [ref=f8e27] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f8e28]: "03"
+            - text: About
+          - link "04 Skills" [ref=f8e29] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f8e30]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f8e31] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f8e32]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f8e33] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f8e34]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f8e35] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f8e36]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f8e37] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f8e38]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f8e39] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f8e40]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f8e41] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f8e42]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f8e43] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f8e44]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f8e45] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f8e46]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f8e47] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f8e48]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f8e49] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f8e50]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f8e51] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f8e52]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f8e53] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f8e54]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f8e55] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f8e56]: "17"
+            - text: Typography
+        - generic [ref=f8e57]:
+          - generic [ref=f8e58]:
+            - generic [ref=f8e59]: Signed in
+            - generic [ref=f8e60]: admin@rijuldhakal.com
+          - generic [ref=f8e61]:
+            - link "View Site" [ref=f8e62] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f8e63]
+    - main [ref=f8e64]:
+      - generic [ref=f8e66]:
+        - generic [ref=f8e67]:
+          - generic [ref=f8e68]:
+            - generic [ref=f8e69]:
+              - heading "Skills" [level=1] [ref=f8e70]
+              - paragraph [ref=f8e71]: Orbit items shown on the public Skills section. Position X/Y place each skill in the orbiting cluster.
+            - generic [ref=f8e73]:
+              - button "Aa" [ref=f8e75]
+              - button "New skill" [ref=f8e76]
+          - generic [ref=f8e77]:
+            - generic [ref=f8e78]:
+              - generic [ref=f8e79]:
+                - generic [ref=f8e80]:
+                  - button "Figma" [ref=f8e81]
+                  - paragraph [ref=f8e82]: UI / UX - 20.00% / 50.00%
+                - generic [ref=f8e83]:
+                  - button [pressed] [ref=f8e84]
+                  - generic [ref=f8e87]:
+                    - button "Move up" [disabled] [ref=f8e88]: ^
+                    - button "Move down" [ref=f8e89]: v
+                  - button "Delete" [ref=f8e90]
+              - generic [ref=f8e91]:
+                - generic [ref=f8e92]:
+                  - button "Wireframing" [ref=f8e93]
+                  - paragraph [ref=f8e94]: UI / UX - 30.50% / 27.00%
+                - generic [ref=f8e95]:
+                  - button [pressed] [ref=f8e96]
+                  - generic [ref=f8e99]:
+                    - button "Move up" [ref=f8e100]: ^
+                    - button "Move down" [ref=f8e101]: v
+                  - button "Delete" [ref=f8e102]
+              - generic [ref=f8e103]:
+                - generic [ref=f8e104]:
+                  - button "Entrepreneurship" [ref=f8e105]
+                  - paragraph [ref=f8e106]: BUSINESS - 69.50% / 27.00%
+                - generic [ref=f8e107]:
+                  - button [pressed] [ref=f8e108]
+                  - generic [ref=f8e111]:
+                    - button "Move up" [ref=f8e112]: ^
+                    - button "Move down" [ref=f8e113]: v
+                  - button "Delete" [ref=f8e114]
+              - generic [ref=f8e115]:
+                - generic [ref=f8e116]:
+                  - button "React" [ref=f8e117]
+                  - paragraph [ref=f8e118]: DEVELOPMENT - 80.00% / 50.00%
+                - generic [ref=f8e119]:
+                  - button [pressed] [ref=f8e120]
+                  - generic [ref=f8e123]:
+                    - button "Move up" [ref=f8e124]: ^
+                    - button "Move down" [ref=f8e125]: v
+                  - button "Delete" [ref=f8e126]
+              - generic [ref=f8e127]:
+                - generic [ref=f8e128]:
+                  - button "Next.js" [ref=f8e129]
+                  - paragraph [ref=f8e130]: DEVELOPMENT - 67.00% / 73.00%
+                - generic [ref=f8e131]:
+                  - button [pressed] [ref=f8e132]
+                  - generic [ref=f8e135]:
+                    - button "Move up" [ref=f8e136]: ^
+                    - button "Move down" [ref=f8e137]: v
+                  - button "Delete" [ref=f8e138]
+              - generic [ref=f8e139]:
+                - generic [ref=f8e140]:
+                  - button "UX Research" [ref=f8e141]
+                  - paragraph [ref=f8e142]: UI / UX - 50.00% / 12.00%
+                - generic [ref=f8e143]:
+                  - button [pressed] [ref=f8e144]
+                  - generic [ref=f8e147]:
+                    - button "Move up" [ref=f8e148]: ^
+                    - button "Move down" [ref=f8e149]: v
+                  - button "Delete" [ref=f8e150]
+              - generic [ref=f8e151]:
+                - generic [ref=f8e152]:
+                  - button "Journey Maps" [ref=f8e153]
+                  - paragraph [ref=f8e154]: UI / UX - 33.00% / 14.50%
+                - generic [ref=f8e155]:
+                  - button [pressed] [ref=f8e156]
+                  - generic [ref=f8e159]:
+                    - button "Move up" [ref=f8e160]: ^
+                    - button "Move down" [ref=f8e161]: v
+                  - button "Delete" [ref=f8e162]
+              - generic [ref=f8e163]:
+                - generic [ref=f8e164]:
+                  - button "UI/UX Training" [ref=f8e165]
+                  - paragraph [ref=f8e166]: BUSINESS - 67.00% / 14.50%
+                - generic [ref=f8e167]:
+                  - button [pressed] [ref=f8e168]
+                  - generic [ref=f8e171]:
+                    - button "Move up" [ref=f8e172]: ^
+                    - button "Move down" [ref=f8e173]: v
+                  - button "Delete" [ref=f8e174]
+              - generic [ref=f8e175]:
+                - generic [ref=f8e176]:
+                  - button "Prototyping" [ref=f8e177]
+                  - paragraph [ref=f8e178]: UI / UX - 13.00% / 33.00%
+                - generic [ref=f8e179]:
+                  - button [pressed] [ref=f8e180]
+                  - generic [ref=f8e183]:
+                    - button "Move up" [ref=f8e184]: ^
+                    - button "Move down" [ref=f8e185]: v
+                  - button "Delete" [ref=f8e186]
+              - generic [ref=f8e187]:
+                - generic [ref=f8e188]:
+                  - button "Visual Design" [ref=f8e189]
+                  - paragraph [ref=f8e190]: UI / UX - 12.00% / 67.00%
+                - generic [ref=f8e191]:
+                  - button [pressed] [ref=f8e192]
+                  - generic [ref=f8e195]:
+                    - button "Move up" [ref=f8e196]: ^
+                    - button "Move down" [ref=f8e197]: v
+                  - button "Delete" [ref=f8e198]
+              - generic [ref=f8e199]:
+                - generic [ref=f8e200]:
+                  - button "Food Distribution" [ref=f8e201]
+                  - paragraph [ref=f8e202]: BUSINESS - 87.00% / 33.00%
+                - generic [ref=f8e203]:
+                  - button [pressed] [ref=f8e204]
+                  - generic [ref=f8e207]:
+                    - button "Move up" [ref=f8e208]: ^
+                    - button "Move down" [ref=f8e209]: v
+                  - button "Delete" [ref=f8e210]
+              - generic [ref=f8e211]:
+                - generic [ref=f8e212]:
+                  - button "TypeScript" [ref=f8e213]
+                  - paragraph [ref=f8e214]: DEVELOPMENT - 50.00% / 85.00%
+                - generic [ref=f8e215]:
+                  - button [pressed] [ref=f8e216]
+                  - generic [ref=f8e219]:
+                    - button "Move up" [ref=f8e220]: ^
+                    - button "Move down" [ref=f8e221]: v
+                  - button "Delete" [ref=f8e222]
+              - generic [ref=f8e223]:
+                - generic [ref=f8e224]:
+                  - button "Saptarishi Group" [ref=f8e225]
+                  - paragraph [ref=f8e226]: BUSINESS - 83.00% / 16.00%
+                - generic [ref=f8e227]:
+                  - button [pressed] [ref=f8e228]
+                  - generic [ref=f8e231]:
+                    - button "Move up" [ref=f8e232]: ^
+                    - button "Move down" [ref=f8e233]: v
+                  - button "Delete" [ref=f8e234]
+              - generic [ref=f8e235]:
+                - generic [ref=f8e236]:
+                  - button "PostgreSQL" [ref=f8e237]
+                  - paragraph [ref=f8e238]: DEVELOPMENT - 91.00% / 50.00%
+                - generic [ref=f8e239]:
+                  - button [pressed] [ref=f8e240]
+                  - generic [ref=f8e243]:
+                    - button "Move up" [ref=f8e244]: ^
+                    - button "Move down" [ref=f8e245]: v
+                  - button "Delete" [ref=f8e246]
+              - generic [ref=f8e247]:
+                - generic [ref=f8e248]:
+                  - button "JavaScript" [ref=f8e249]
+                  - paragraph [ref=f8e250]: DEVELOPMENT - 85.00% / 71.00%
+                - generic [ref=f8e251]:
+                  - button [pressed] [ref=f8e252]
+                  - generic [ref=f8e255]:
+                    - button "Move up" [ref=f8e256]: ^
+                    - button "Move down" [ref=f8e257]: v
+                  - button "Delete" [ref=f8e258]
+              - generic [ref=f8e259]:
+                - generic [ref=f8e260]:
+                  - button "FastAPI" [ref=f8e261]
+                  - paragraph [ref=f8e262]: DEVELOPMENT - 70.00% / 91.00%
+                - generic [ref=f8e263]:
+                  - button [pressed] [ref=f8e264]
+                  - generic [ref=f8e267]:
+                    - button "Move up" [ref=f8e268]: ^
+                    - button "Move down" [ref=f8e269]: v
+                  - button "Delete" [ref=f8e270]
+              - generic [ref=f8e271]:
+                - generic [ref=f8e272]:
+                  - button "ASP.NET Core" [ref=f8e273]
+                  - paragraph [ref=f8e274]: DEVELOPMENT - 50.00% / 96.00%
+                - generic [ref=f8e275]:
+                  - button [pressed] [ref=f8e276]
+                  - generic [ref=f8e279]:
+                    - button "Move up" [ref=f8e280]: ^
+                    - button "Move down" [ref=f8e281]: v
+                  - button "Delete" [ref=f8e282]
+              - generic [ref=f8e283]:
+                - generic [ref=f8e284]:
+                  - button "Tailwind CSS" [ref=f8e285]
+                  - paragraph [ref=f8e286]: DEVELOPMENT - 30.00% / 91.00%
+                - generic [ref=f8e287]:
+                  - button [pressed] [ref=f8e288]
+                  - generic [ref=f8e291]:
+                    - button "Move up" [ref=f8e292]: ^
+                    - button "Move down" [ref=f8e293]: v
+                  - button "Delete" [ref=f8e294]
+              - generic [ref=f8e295]:
+                - generic [ref=f8e296]:
+                  - button "Node.js" [ref=f8e297]
+                  - paragraph [ref=f8e298]: DEVELOPMENT - 15.00% / 83.00%
+                - generic [ref=f8e299]:
+                  - button [pressed] [ref=f8e300]
+                  - generic [ref=f8e303]:
+                    - button "Move up" [ref=f8e304]: ^
+                    - button "Move down" [disabled] [ref=f8e305]: v
+                  - button "Delete" [ref=f8e306]
+            - generic [ref=f8e307]:
+              - heading "New skill" [level=2] [ref=f8e308]
+              - generic [ref=f8e309]:
+                - generic [ref=f8e311]:
+                  - generic [ref=f8e312]: Name
+                  - textbox "React" [ref=f8e314]
+                - generic [ref=f8e316]:
+                  - generic [ref=f8e317]: Category
+                  - combobox [ref=f8e319]:
+                    - option "DEVELOPMENT" [selected]
+                    - option "UI / UX"
+                    - option "BUSINESS"
+                - generic [ref=f8e321]:
+                  - generic [ref=f8e322]: Description
+                  - textbox [ref=f8e324]
+                - generic [ref=f8e326]:
+                  - generic [ref=f8e327]: Position X (%)
+                  - textbox "50%" [ref=f8e329]
+                - generic [ref=f8e331]:
+                  - generic [ref=f8e332]: Position Y (%)
+                  - textbox "50%" [ref=f8e334]
+                - generic [ref=f8e336]:
+                  - generic [ref=f8e337]: Active
+                  - button [pressed] [ref=f8e339]
+              - button "Create" [ref=f8e343]
+        - generic [ref=f8e344]:
+          - generic [ref=f8e345]:
+            - generic [ref=f8e346]:
+              - heading "Skills section copy" [level=3] [ref=f8e347]
+              - paragraph [ref=f8e348]: Number, label, heading and center watermark for the Skills section.
+            - button "Save" [ref=f8e349]
+          - generic [ref=f8e350]:
+            - generic [ref=f8e352]:
+              - generic [ref=f8e353]: Section number
+              - textbox "04 /" [ref=f8e355]: 02 /
+            - generic [ref=f8e357]:
+              - generic [ref=f8e358]: Section label
+              - textbox "Skills" [ref=f8e360]
+            - generic [ref=f8e362]:
+              - generic [ref=f8e363]: Heading
+              - textbox "Tools I Work With." [ref=f8e365]:
+                - /placeholder: "Tools I\nWork With."
+            - generic [ref=f8e367]:
+              - generic [ref=f8e368]: Center label
+              - textbox "RIJUL" [ref=f8e370]

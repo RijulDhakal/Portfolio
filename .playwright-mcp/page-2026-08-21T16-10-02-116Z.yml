@@ -1,0 +1,116 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Rijul." [ref=f1e5] [cursor=pointer]:
+          - /url: /#home
+        - navigation [ref=f1e6]:
+          - link "Home" [ref=f1e7] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=f1e8] [cursor=pointer]:
+            - /url: /services
+          - link "Work" [ref=f1e9] [cursor=pointer]:
+            - /url: /work
+          - link "About" [ref=f1e10] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=f1e11] [cursor=pointer]:
+            - /url: /contact
+        - link "Hire Me" [ref=f1e12] [cursor=pointer]:
+          - /url: /#contact
+    - main [ref=f1e13]:
+      - generic [ref=f1e16]:
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]:
+            - generic [ref=f1e19]: 03 /
+            - generic [ref=f1e20]: Services
+          - heading "What I Can Do." [level=2] [ref=f1e21]:
+            - generic [ref=f1e22]: What I
+            - generic [ref=f1e23]: Can Do.
+        - generic [ref=f1e24]:
+          - generic [ref=f1e25] [cursor=pointer]:
+            - generic [ref=f1e27]:
+              - generic [ref=f1e28]: "01"
+              - heading "UI/UX DESIGN" [level=3] [ref=f1e29]
+            - generic [ref=f1e30]:
+              - generic [ref=f1e31]:
+                - generic [ref=f1e32]: Wireframing
+                - generic [ref=f1e33]: Prototyping
+                - generic [ref=f1e34]: UX Research
+                - generic [ref=f1e35]: Visual Design
+                - generic [ref=f1e36]: Interaction Design
+              - paragraph [ref=f1e37]: Designing intuitive and visually engaging digital experiences that balance user needs with business goals.
+          - generic [ref=f1e41] [cursor=pointer]:
+            - generic [ref=f1e43]:
+              - generic [ref=f1e44]: "02"
+              - heading "WEB DEVELOPMENT" [level=3] [ref=f1e45]
+            - generic [ref=f1e46]:
+              - generic [ref=f1e47]:
+                - generic [ref=f1e48]: Frontend Development
+                - generic [ref=f1e49]: Backend Development
+                - generic [ref=f1e50]: REST APIs
+                - generic [ref=f1e51]: Database Integration
+                - generic [ref=f1e52]: Responsive Applications
+              - paragraph [ref=f1e53]: Building modern, scalable web applications from interface to backend.
+          - generic [ref=f1e57] [cursor=pointer]:
+            - generic [ref=f1e59]:
+              - generic [ref=f1e60]: "03"
+              - heading "DIGITAL PRODUCT DESIGN" [level=3] [ref=f1e61]
+            - generic [ref=f1e62]:
+              - generic [ref=f1e63]:
+                - generic [ref=f1e64]: User Flows
+                - generic [ref=f1e65]: Design Systems
+                - generic [ref=f1e66]: Responsive Interfaces
+                - generic [ref=f1e67]: Interaction Design
+              - paragraph [ref=f1e68]: Turning product ideas into structured, usable and engaging digital experiences.
+          - generic [ref=f1e72] [cursor=pointer]:
+            - generic [ref=f1e74]:
+              - generic [ref=f1e75]: "04"
+              - heading "TRAINING" [level=3] [ref=f1e76]
+            - generic [ref=f1e77]:
+              - generic [ref=f1e78]:
+                - generic [ref=f1e79]: UI/UX Crash Courses
+                - generic [ref=f1e80]: 30-Day Courses
+                - generic [ref=f1e81]: 1-Week Intensive
+                - generic [ref=f1e82]: Workshops
+                - generic [ref=f1e83]: Training Sessions
+              - paragraph [ref=f1e84]: Helping learners build practical UI/UX and digital skills through focused training.
+      - generic [ref=f1e89]:
+        - generic [ref=f1e90]:
+          - generic [ref=f1e91]:
+            - heading "Rijul." [level=2] [ref=f1e92]
+            - paragraph [ref=f1e93]: UI/UX Designer & Developer
+          - generic [ref=f1e94]:
+            - generic [ref=f1e95]: Navigation
+            - link "Home" [ref=f1e96] [cursor=pointer]:
+              - /url: /#home
+            - link "Intro" [ref=f1e97] [cursor=pointer]:
+              - /url: /#intro
+            - link "About" [ref=f1e98] [cursor=pointer]:
+              - /url: /#about
+            - link "Skills" [ref=f1e99] [cursor=pointer]:
+              - /url: /#skills
+            - link "Services" [ref=f1e100] [cursor=pointer]:
+              - /url: /#services
+            - link "Work" [ref=f1e101] [cursor=pointer]:
+              - /url: /#work
+            - link "Experience" [ref=f1e102] [cursor=pointer]:
+              - /url: /#experience
+            - link "Education" [ref=f1e103] [cursor=pointer]:
+              - /url: /#education
+            - link "Contact" [ref=f1e104] [cursor=pointer]:
+              - /url: /#contact
+          - generic [ref=f1e105]:
+            - generic [ref=f1e106]: Contact
+            - link "rijuldhakal95@gmail.com" [ref=f1e107] [cursor=pointer]:
+              - /url: mailto:rijuldhakal95@gmail.com
+            - generic [ref=f1e108]:
+              - link "GH" [ref=f1e109] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "IN" [ref=f1e110] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+              - link "X" [ref=f1e111] [cursor=pointer]:
+                - /url: https://x.com/
+        - generic [ref=f1e112]:
+          - generic [ref=f1e113]: © 2026 Rijul Dhakal. All rights reserved.
+          - generic [ref=f1e114]: Built with curiosity.
+  - button "Open Next.js Dev Tools" [ref=f1e120] [cursor=pointer]

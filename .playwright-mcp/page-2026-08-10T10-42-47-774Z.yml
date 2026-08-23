@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - complementary [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "Rijul." [ref=e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=e17]: CMS
+        - navigation [ref=e18]:
+          - link "01 Dashboard" [ref=e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=e34]: "08"
+            - text: Education
+          - link "09 Media" [ref=e35] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=e36]: "09"
+            - text: Media
+          - link "10 Messages" [ref=e37] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=e38]: "10"
+            - text: Messages
+          - link "11 Settings" [ref=e39] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=e40]: "11"
+            - text: Settings
+          - link "12 Social Links" [ref=e41] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=e42]: "12"
+            - text: Social Links
+          - link "13 Typography" [ref=e43] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=e44]: "13"
+            - text: Typography
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Signed in
+            - generic [ref=e48]: admin@rijuldhakal.com
+          - generic [ref=e49]:
+            - link "View Site" [ref=e50] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=e51]
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Skills" [level=1] [ref=e57]
+            - paragraph [ref=e58]: Orbit items shown on the public Skills section. Position X/Y place each skill in the orbiting cluster.
+          - generic [ref=e60]:
+            - button "Aa" [ref=e62]
+            - button "New skill" [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]: Loading
+          - generic [ref=e69]:
+            - heading "New skill" [level=2] [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: Name
+                - textbox "React" [ref=e76]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Category
+                - combobox [ref=e81]:
+                  - option "DEVELOPMENT" [selected]
+                  - option "UI / UX"
+                  - option "BUSINESS"
+              - generic [ref=e83]:
+                - generic [ref=e84]: Description
+                - textbox [ref=e86]
+              - generic [ref=e88]:
+                - generic [ref=e89]: Position X (%)
+                - textbox "50%" [ref=e91]
+              - generic [ref=e93]:
+                - generic [ref=e94]: Position Y (%)
+                - textbox "50%" [ref=e96]
+              - generic [ref=e98]:
+                - generic [ref=e99]: Active
+                - button [pressed] [ref=e101]
+            - button "Create" [ref=e105]

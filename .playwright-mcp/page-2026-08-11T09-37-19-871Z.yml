@@ -1,0 +1,142 @@
+- generic [active] [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e7] [cursor=pointer]
+  - alert [ref=f1e11]
+  - generic [ref=f1e12]:
+    - complementary [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic [ref=f1e15]:
+          - link "Rijul." [ref=f1e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f1e17]: CMS
+        - navigation [ref=f1e18]:
+          - link "01 Dashboard" [ref=f1e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f1e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f1e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f1e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f1e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f1e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f1e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f1e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f1e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f1e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f1e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f1e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f1e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f1e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f1e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f1e34]: "08"
+            - text: Education
+          - link "09 Navigation" [ref=f1e35] [cursor=pointer]:
+            - /url: /admin/navigation
+            - generic [ref=f1e36]: "09"
+            - text: Navigation
+          - link "10 Intro" [ref=f1e37] [cursor=pointer]:
+            - /url: /admin/intro
+            - generic [ref=f1e38]: "10"
+            - text: Intro
+          - link "11 Personal" [ref=f1e39] [cursor=pointer]:
+            - /url: /admin/personal
+            - generic [ref=f1e40]: "11"
+            - text: Personal
+          - link "12 Contact" [ref=f1e41] [cursor=pointer]:
+            - /url: /admin/contact
+            - generic [ref=f1e42]: "12"
+            - text: Contact
+          - link "13 Media" [ref=f1e43] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f1e44]: "13"
+            - text: Media
+          - link "14 Messages" [ref=f1e45] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f1e46]: "14"
+            - text: Messages
+          - link "15 Settings" [ref=f1e47] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f1e48]: "15"
+            - text: Settings
+          - link "16 Social Links" [ref=f1e49] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f1e50]: "16"
+            - text: Social Links
+          - link "17 Typography" [ref=f1e51] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f1e52]: "17"
+            - text: Typography
+        - generic [ref=f1e53]:
+          - generic [ref=f1e54]:
+            - generic [ref=f1e55]: Signed in
+            - generic [ref=f1e56]: admin@rijuldhakal.com
+          - generic [ref=f1e57]:
+            - link "View Site" [ref=f1e58] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f1e59]
+    - main [ref=f1e60]:
+      - generic [ref=f1e62]:
+        - generic [ref=f1e63]:
+          - generic [ref=f1e64]:
+            - heading "Hero" [level=1] [ref=f1e65]
+            - paragraph [ref=f1e66]: The first section visitors see. The design and animation stay as-is; content comes from here.
+          - generic [ref=f1e68]:
+            - button "Aa" [ref=f1e70]
+            - button "Save hero" [ref=f1e72]
+        - generic [ref=f1e74]:
+          - generic [ref=f1e75]:
+            - generic [ref=f1e76]: Greeting
+            - textbox "Hello, I'm" [ref=f1e78]: Hello I'm
+          - generic [ref=f1e79]:
+            - generic [ref=f1e80]: Name
+            - textbox "Rijul Dhakal" [ref=f1e82]
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]: Title
+            - textbox "UI/UX Designer & Developer" [ref=f1e87]
+          - generic [ref=f1e89]:
+            - generic [ref=f1e90]: Description
+            - textbox [ref=f1e92]: I'm a UI/UX Designer and Developer who enjoys turning ideas into intuitive interfaces and functional digital products. My work combines design thinking, frontend development, backend development, and business understanding.
+          - generic [ref=f1e94]:
+            - generic [ref=f1e95]: Profile photo
+            - generic [ref=f1e97]:
+              - textbox "/uploads/… or https://…" [ref=f1e98]: http://localhost:5261/uploads/general/e9f45756ce814438aef1957f6ca95095.png
+              - button "Pick" [ref=f1e99]
+            - paragraph [ref=f1e100]: Featured in the Hero section with the torch effect. Use a portrait image.
+          - img "Profile preview" [ref=f1e102]
+          - generic [ref=f1e104]:
+            - generic [ref=f1e105]: CV file
+            - generic [ref=f1e107]:
+              - textbox "/uploads/… or https://…" [ref=f1e108]: http://localhost:5261/uploads/general/241c663adbc5482ca1fdb38241a2f2ca.pdf
+              - button "Pick" [ref=f1e109]
+            - paragraph [ref=f1e110]: Downloadable resume linked from the Hero buttons.
+          - generic [ref=f1e111]:
+            - generic [ref=f1e112]: CV file name
+            - textbox "Rijul-Dhakal-CV.pdf" [ref=f1e114]
+            - paragraph [ref=f1e115]: Name shown when visitors download the CV.
+          - generic [ref=f1e116]:
+            - generic [ref=f1e117]: Availability text
+            - textbox "Available for work" [ref=f1e119]: Available for freelance work
+          - generic [ref=f1e120]:
+            - generic [ref=f1e121]: Primary button text
+            - textbox "View my work" [ref=f1e123]: VIEW MY WORK
+          - generic [ref=f1e124]:
+            - generic [ref=f1e125]: Primary button URL
+            - textbox "#work or https://…" [ref=f1e127]: "#work"
+          - generic [ref=f1e128]:
+            - generic [ref=f1e129]: Secondary button text
+            - textbox "Download CV" [ref=f1e131]: DOWNLOAD CV
+          - generic [ref=f1e132]:
+            - generic [ref=f1e133]: Secondary button URL
+            - textbox "https://…/CV.pdf" [ref=f1e135]
+          - button "Visible on the public site" [pressed] [ref=f1e137]

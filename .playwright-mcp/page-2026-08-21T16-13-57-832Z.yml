@@ -1,0 +1,92 @@
+- generic [active] [ref=f26e1]:
+  - generic [ref=f26e2]:
+    - banner [ref=f26e3]:
+      - generic [ref=f26e4]:
+        - link "Rijul." [ref=f26e5] [cursor=pointer]:
+          - /url: /#home
+        - navigation [ref=f26e6]:
+          - link "Home" [ref=f26e7] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=f26e8] [cursor=pointer]:
+            - /url: /services
+          - link "Work" [ref=f26e9] [cursor=pointer]:
+            - /url: /work
+          - link "About" [ref=f26e10] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=f26e11] [cursor=pointer]:
+            - /url: /contact
+        - link "Hire Me" [ref=f26e12] [cursor=pointer]:
+          - /url: /#contact
+    - main [ref=f26e13]:
+      - article [ref=f26e14]:
+        - generic [ref=f26e16]:
+          - link "All Work" [ref=f26e17] [cursor=pointer]:
+            - /url: /work
+          - generic [ref=f26e20]:
+            - generic [ref=f26e21]: "02"
+            - generic [ref=f26e22]: 3D Experience
+          - heading "DIGITAL EXHIBITION" [level=1] [ref=f26e23]
+          - paragraph [ref=f26e24]: Immersive 3D digital exhibition experience.
+          - generic [ref=f26e26]:
+            - term [ref=f26e27]: Category
+            - definition [ref=f26e28]: 3D Experience
+        - img "DIGITAL EXHIBITION" [ref=f26e31]
+        - generic [ref=f26e34]:
+          - generic [ref=f26e36]:
+            - generic [ref=f26e37]: 01 /
+            - generic [ref=f26e38]: Overview
+          - generic [ref=f26e39]:
+            - paragraph [ref=f26e40]: An immersive 3D digital exhibition experience built with Next.js, Three.js and GSAP, showcasing products and artworks in an interactive spatial environment.
+            - generic [ref=f26e41]:
+              - generic [ref=f26e42]: Next.js
+              - generic [ref=f26e43]: Three.js
+              - generic [ref=f26e44]: GSAP
+        - navigation [ref=f26e45]:
+          - link "Previous Project SAPTARISHI PLATFORM" [ref=f26e46] [cursor=pointer]:
+            - /url: /work/saptarishi-platform
+            - generic [ref=f26e47]: Previous Project
+            - generic [ref=f26e50]: SAPTARISHI PLATFORM
+          - link "Next Project SAPTARISHI PLATFORM" [ref=f26e51] [cursor=pointer]:
+            - /url: /work/saptarishi-platform
+            - generic [ref=f26e52]: Next Project
+            - generic [ref=f26e55]: SAPTARISHI PLATFORM
+      - generic [ref=f26e57]:
+        - generic [ref=f26e58]:
+          - generic [ref=f26e59]:
+            - heading "Rijul." [level=2] [ref=f26e60]
+            - paragraph [ref=f26e61]: UI/UX Designer & Developer
+          - generic [ref=f26e62]:
+            - generic [ref=f26e63]: Navigation
+            - link "Home" [ref=f26e64] [cursor=pointer]:
+              - /url: /#home
+            - link "Intro" [ref=f26e65] [cursor=pointer]:
+              - /url: /#intro
+            - link "About" [ref=f26e66] [cursor=pointer]:
+              - /url: /#about
+            - link "Skills" [ref=f26e67] [cursor=pointer]:
+              - /url: /#skills
+            - link "Services" [ref=f26e68] [cursor=pointer]:
+              - /url: /#services
+            - link "Work" [ref=f26e69] [cursor=pointer]:
+              - /url: /#work
+            - link "Experience" [ref=f26e70] [cursor=pointer]:
+              - /url: /#experience
+            - link "Education" [ref=f26e71] [cursor=pointer]:
+              - /url: /#education
+            - link "Contact" [ref=f26e72] [cursor=pointer]:
+              - /url: /#contact
+          - generic [ref=f26e73]:
+            - generic [ref=f26e74]: Contact
+            - link "rijuldhakal95@gmail.com" [ref=f26e75] [cursor=pointer]:
+              - /url: mailto:rijuldhakal95@gmail.com
+            - generic [ref=f26e76]:
+              - link "GH" [ref=f26e77] [cursor=pointer]:
+                - /url: https://github.com/
+              - link "IN" [ref=f26e78] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+              - link "X" [ref=f26e79] [cursor=pointer]:
+                - /url: https://x.com/
+        - generic [ref=f26e80]:
+          - generic [ref=f26e81]: © 2026 Rijul Dhakal. All rights reserved.
+          - generic [ref=f26e82]: Built with curiosity.
+  - button "Open Next.js Dev Tools" [ref=f26e88] [cursor=pointer]

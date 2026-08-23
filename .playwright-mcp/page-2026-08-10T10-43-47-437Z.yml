@@ -1,0 +1,154 @@
+- generic [active] [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e7] [cursor=pointer]
+  - alert [ref=f1e11]
+  - generic [ref=f1e12]:
+    - complementary [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - generic [ref=f1e15]:
+          - link "Rijul." [ref=f1e16] [cursor=pointer]:
+            - /url: /admin
+          - paragraph [ref=f1e17]: CMS
+        - navigation [ref=f1e18]:
+          - link "01 Dashboard" [ref=f1e19] [cursor=pointer]:
+            - /url: /admin
+            - generic [ref=f1e20]: "01"
+            - text: Dashboard
+          - link "02 Hero" [ref=f1e21] [cursor=pointer]:
+            - /url: /admin/hero
+            - generic [ref=f1e22]: "02"
+            - text: Hero
+          - link "03 About" [ref=f1e23] [cursor=pointer]:
+            - /url: /admin/about
+            - generic [ref=f1e24]: "03"
+            - text: About
+          - link "04 Skills" [ref=f1e25] [cursor=pointer]:
+            - /url: /admin/skills
+            - generic [ref=f1e26]: "04"
+            - text: Skills
+          - link "05 Services" [ref=f1e27] [cursor=pointer]:
+            - /url: /admin/services
+            - generic [ref=f1e28]: "05"
+            - text: Services
+          - link "06 Projects" [ref=f1e29] [cursor=pointer]:
+            - /url: /admin/projects
+            - generic [ref=f1e30]: "06"
+            - text: Projects
+          - link "07 Experience" [ref=f1e31] [cursor=pointer]:
+            - /url: /admin/experiences
+            - generic [ref=f1e32]: "07"
+            - text: Experience
+          - link "08 Education" [ref=f1e33] [cursor=pointer]:
+            - /url: /admin/educations
+            - generic [ref=f1e34]: "08"
+            - text: Education
+          - link "09 Media" [ref=f1e35] [cursor=pointer]:
+            - /url: /admin/media
+            - generic [ref=f1e36]: "09"
+            - text: Media
+          - link "10 Messages" [ref=f1e37] [cursor=pointer]:
+            - /url: /admin/messages
+            - generic [ref=f1e38]: "10"
+            - text: Messages
+          - link "11 Settings" [ref=f1e39] [cursor=pointer]:
+            - /url: /admin/settings
+            - generic [ref=f1e40]: "11"
+            - text: Settings
+          - link "12 Social Links" [ref=f1e41] [cursor=pointer]:
+            - /url: /admin/social-links
+            - generic [ref=f1e42]: "12"
+            - text: Social Links
+          - link "13 Typography" [ref=f1e43] [cursor=pointer]:
+            - /url: /admin/typography
+            - generic [ref=f1e44]: "13"
+            - text: Typography
+        - generic [ref=f1e45]:
+          - generic [ref=f1e46]:
+            - generic [ref=f1e47]: Signed in
+            - generic [ref=f1e48]: admin@rijuldhakal.com
+          - generic [ref=f1e49]:
+            - link "View Site" [ref=f1e50] [cursor=pointer]:
+              - /url: /
+            - button "Logout" [ref=f1e51]
+    - main [ref=f1e52]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - generic [ref=f1e56]:
+            - heading "New project" [level=1] [ref=f1e57]
+            - paragraph [ref=f1e58]: Projects appear on the public Work section when published.
+          - generic [ref=f1e59]:
+            - button "Back to projects" [ref=f1e60]
+            - button "Save project" [ref=f1e61]
+        - generic [ref=f1e62]:
+          - generic [ref=f1e63]:
+            - heading "Details" [level=2] [ref=f1e64]
+            - generic [ref=f1e65]:
+              - generic [ref=f1e66]:
+                - generic [ref=f1e67]:
+                  - generic [ref=f1e68]: Title
+                  - button "Aa" [ref=f1e70]
+                - textbox "Project name" [ref=f1e71]
+              - generic [ref=f1e72]:
+                - generic [ref=f1e73]: Slug
+                - textbox "project-name" [ref=f1e75]
+                - paragraph [ref=f1e76]: Used in the project URL.
+              - generic [ref=f1e77]:
+                - generic [ref=f1e78]:
+                  - generic [ref=f1e79]: Category
+                  - button "Aa" [ref=f1e81]
+                - textbox "Web App" [ref=f1e82]
+              - generic [ref=f1e83]:
+                - generic [ref=f1e84]: Display order
+                - spinbutton [ref=f1e86]: "1"
+              - generic [ref=f1e88]:
+                - generic [ref=f1e89]:
+                  - generic [ref=f1e90]: Short description
+                  - button "Aa" [ref=f1e92]
+                - textbox [ref=f1e93]
+                - paragraph [ref=f1e94]: One-liner shown in the Work section card.
+              - generic [ref=f1e96]:
+                - generic [ref=f1e97]: Full description
+                - textbox [ref=f1e99]
+              - generic [ref=f1e101]:
+                - generic [ref=f1e102]:
+                  - generic [ref=f1e103]: Technologies
+                  - button "Aa" [ref=f1e105]
+                - generic [ref=f1e107]:
+                  - textbox "Add a technology and press Enter" [ref=f1e108]
+                  - button "Add" [ref=f1e109]
+          - generic [ref=f1e110]:
+            - heading "Images" [level=2] [ref=f1e111]
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: Thumbnail
+                - generic [ref=f1e116]:
+                  - textbox "/uploads/… or https://…" [ref=f1e117]
+                  - button "Pick" [ref=f1e118]
+                - paragraph [ref=f1e119]: Card image on the Work section.
+              - generic [ref=f1e120]:
+                - generic [ref=f1e121]: Featured image
+                - generic [ref=f1e123]:
+                  - textbox "/uploads/… or https://…" [ref=f1e124]
+                  - button "Pick" [ref=f1e125]
+            - generic [ref=f1e126]:
+              - generic [ref=f1e127]:
+                - generic [ref=f1e128]: Gallery
+                - button "Add image" [ref=f1e129]
+              - paragraph [ref=f1e130]: No gallery images yet.
+          - generic [ref=f1e131]:
+            - heading "Links" [level=2] [ref=f1e132]
+            - generic [ref=f1e133]:
+              - generic [ref=f1e134]:
+                - generic [ref=f1e135]: Live URL
+                - textbox "https://…" [ref=f1e137]
+              - generic [ref=f1e138]:
+                - generic [ref=f1e139]: GitHub URL
+                - textbox "https://github.com/…" [ref=f1e141]
+              - generic [ref=f1e142]:
+                - generic [ref=f1e143]: Figma URL
+                - textbox "https://figma.com/…" [ref=f1e145]
+              - generic [ref=f1e146]:
+                - generic [ref=f1e147]: Case study URL
+                - textbox "https://…" [ref=f1e149]
+          - generic [ref=f1e151]:
+            - button "Published on the public site" [ref=f1e152]
+            - button "Featured" [ref=f1e156]
