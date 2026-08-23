@@ -1,23 +1,16 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
-# Copy csproj files and restore dependencies
-COPY *.csproj ./
-COPY ../Portfolio.Application/*.csproj ../Portfolio.Application/
-COPY ../Portfolio.Domain/*.csproj ../Portfolio.Domain/
-COPY ../Portfolio.Infrastructure/*.csproj ../Portfolio.Infrastructure/
-RUN dotnet restore
-
-# Copy everything and build
+# Copy everything from the current directory (Portfolio.Api)
 COPY . .
-COPY ../Portfolio.Application ../Portfolio.Application
-COPY ../Portfolio.Domain ../Portfolio.Domain
-COPY ../Portfolio.Infrastructure ../Portfolio.Infrastructure
+WORKDIR /app
 
-RUN dotnet publish -c Release -o out
+# Restore and publish
+RUN dotnet restore "Portfolio.Api.csproj"
+RUN dotnet publish "Portfolio.Api.csproj" -c Release -o /app/publish
 
-# Build runtime image
+# Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "Portfolio.Api.dll"]
