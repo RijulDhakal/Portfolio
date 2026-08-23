@@ -108,7 +108,7 @@ export default function Hero({ hero }: HeroProps) {
     <section 
       ref={sectionRef}
       id="home" 
-      className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-background select-none"
+      className="relative w-full min-h-screen min-h-[100dvh] flex flex-col items-center justify-center overflow-hidden bg-background select-none"
       onMouseEnter={() => setIsHeroHovered(true)}
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
@@ -169,10 +169,10 @@ export default function Hero({ hero }: HeroProps) {
       />
 
       {/* 5. HERO CONTENT OVERLAY */}
-      <div className="relative z-10 w-full h-full flex flex-col items-center justify-between py-24 px-4 pointer-events-none [@media(max-height:700px)]:py-12">
+      <div className="relative z-10 w-full h-full min-h-screen min-h-[100dvh] flex flex-col items-center justify-between py-12 md:py-16 lg:py-20 px-4 pointer-events-none [@media(max-height:850px)]:py-8 [@media(max-height:700px)]:py-6">
         
         {/* Top Subtitle Pill */}
-        <div className="mt-16 text-center pointer-events-auto bg-background/50 backdrop-blur-sm px-6 py-2 rounded-full border border-border/50">
+        <div className="mt-8 md:mt-12 lg:mt-14 [@media(max-height:850px)]:mt-6 [@media(max-height:700px)]:mt-2 text-center pointer-events-auto bg-background/50 backdrop-blur-sm px-6 py-2 rounded-full border border-border/50">
           <span
             className="text-xs md:text-sm font-bold tracking-[0.2em] text-secondary uppercase"
             style={typography("hero.title")}
@@ -183,7 +183,7 @@ export default function Hero({ hero }: HeroProps) {
 
         {/* Stable Interactive Typography Container */}
         <div
-          className="relative hero-title font-display font-bold text-[12vw] md:text-[10vw] [@media(max-height:700px)]:text-[10vw] leading-none tracking-tighter flex flex-col items-center justify-center pointer-events-none cursor-default py-8 px-2 sm:px-12"
+          className="relative hero-title font-display font-bold text-[clamp(2.5rem,min(9vw,12vh),7.5rem)] leading-none tracking-tighter flex flex-col items-center justify-center pointer-events-none cursor-default py-4 md:py-6 px-2 sm:px-12 [@media(max-height:850px)]:py-2"
           style={typography("hero.name")}
         >
           {/* First Name */}
@@ -192,13 +192,13 @@ export default function Hero({ hero }: HeroProps) {
           </div>
           
           {/* Last Name */}
-          <div className="relative z-10 flex gap-1 sm:gap-4 md:gap-8 mt-2 items-baseline">
+          <div className="relative z-10 flex gap-1 sm:gap-4 md:gap-8 mt-1 md:mt-2 items-baseline">
             {lastName.toUpperCase().split("").map((char, i) => renderLetter(char, `l-${i}`))}
             
             {/* Signature Muted Lime Dot */}
             <span 
               key="dot"
-              className="inline-block text-[12vw] md:text-[10vw] [@media(max-height:700px)]:text-[10vw] leading-[0] pointer-events-auto transition-colors duration-300 ml-[-2vw] cursor-default select-none"
+              className="inline-block text-[clamp(2.5rem,min(9vw,12vh),7.5rem)] leading-[0] pointer-events-auto transition-colors duration-300 ml-[-0.2em] cursor-default select-none"
               style={{ 
                 color: '#B8E600'
               }}
@@ -209,12 +209,12 @@ export default function Hero({ hero }: HeroProps) {
         </div>
 
         {/* Bottom Description & Actions */}
-        <div className="w-full max-w-4xl mx-auto flex flex-col items-center gap-8 max-[350px]:gap-4 pointer-events-auto">
-          <p className="text-center text-secondary md:text-lg max-[350px]:text-sm max-w-lg" style={typography("hero.description")}>
+        <div className="w-full max-w-4xl mx-auto flex flex-col items-center gap-6 md:gap-8 [@media(max-height:850px)]:gap-4 [@media(max-height:700px)]:gap-3 pointer-events-auto">
+          <p className="text-center text-secondary text-sm sm:text-base md:text-lg max-w-lg" style={typography("hero.description")}>
             {description}
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
             {primaryUrl ? (
               <SmartLink
                 href={primaryUrl}
